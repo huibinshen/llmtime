@@ -16,8 +16,9 @@ DEFAULT_UNK_TOKEN = "<unk>"
 loaded = {}
 
 def llama2_model_string(model_size, chat):
-    chat = "chat-" if chat else ""
-    return f"meta-llama/Llama-2-{model_size.lower()}-{chat}hf"
+    return "/home/ubuntu/llama-2-70b"
+    #chat = "chat-" if chat else ""
+    #return f"meta-llama/Llama-2-{model_size.lower()}-{chat}hf"
 
 def get_tokenizer(model):
     name_parts = model.split("-")
@@ -80,6 +81,10 @@ def llama_nll_fn(model, input_arr, target_arr, settings:SerializerSettings, tran
     """
     model, tokenizer = get_model_and_tokenizer(model, cache_model=cache_model)
 
+    if np.issubdtype(input_arr.dtype, np.integer):
+        input_arr = input_arr.astype("float16")
+        target_arr = target_arr.astype("float16")
+        
     input_str = serialize_arr(vmap(transform)(input_arr), settings)
     target_str = serialize_arr(vmap(transform)(target_arr), settings)
     full_series = input_str + target_str
@@ -127,7 +132,7 @@ def llama_completion_fn(
     input_str,
     steps,
     settings,
-    batch_size=5,
+    batch_size=4,
     num_samples=20,
     temp=0.9, 
     top_p=0.9,

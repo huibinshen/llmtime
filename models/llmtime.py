@@ -226,9 +226,16 @@ def get_llmtime_predictions_data(train, test, model, settings, num_samples=10, t
     completions_list = None
     if num_samples > 0:
         preds, completions_list, input_strs = generate_predictions(completion_fn, input_strs, steps, settings, scalers,
-                                                                    num_samples=num_samples, temp=temp, 
-                                                                    parallel=parallel, **kwargs)
-        samples = [pd.DataFrame(preds[i], columns=test[i].index) for i in range(len(preds))]
+                                                                    num_samples=num_samples, temp=temp,  parallel=parallel, **kwargs)
+
+        samples = []
+        for i in range(len(preds)):
+            valid_pred = [x for x in preds[i] if x is not None]
+            samples.append(pd.DataFrame(valid_pred, columns=test[i].index))
+        if len(samples[0]) != num_samples:
+            print("***", len(samples[0]))
+
+        #samples = [pd.DataFrame(preds[i], columns=test[i].index) for i in range(len(preds))]
         medians = [sample.median(axis=0) for sample in samples]
         samples = samples if len(samples) > 1 else samples[0]
         medians = medians if len(medians) > 1 else medians[0]
