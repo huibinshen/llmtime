@@ -35,7 +35,7 @@ def remove_prefix(name):
         return name
 
 
-with open("bin/zero-shot.yaml", "r") as file:
+with open("bin/zero-shot-small.yaml", "r") as file:
     configs = yaml.safe_load(file)["backtests"]
 
 
@@ -86,7 +86,7 @@ def estimate():
             continue
 
         json_path = (
-            Path(__file__).parent / f"predictions_20/{remove_prefix(dataset_name)}.json"
+            Path(__file__).parent / f"predictions_20_sm1.4/{remove_prefix(dataset_name)}.json"
         )
 
         if json_path.exists():

@@ -6,7 +6,7 @@ import pandas as pd
 from dataclasses import dataclass
 from models.llms import completion_fns, nll_fns, tokenization_fns, context_lengths
 
-STEP_MULTIPLIER = 1.2
+STEP_MULTIPLIER = 1.4
 
 @dataclass
 class Scaler:
