@@ -152,7 +152,7 @@ def generate_predictions(
     """
     
     completions_list = []
-    complete = lambda x: completion_fn(input_str=x, steps=steps*STEP_MULTIPLIER, settings=settings, num_samples=num_samples, temp=temp)
+    complete = lambda x: completion_fn(input_str=x, steps=(steps+1)*STEP_MULTIPLIER, settings=settings, num_samples=num_samples, temp=temp)
     if parallel and len(input_strs) > 1:
         print('Running completions in parallel for each input')
         with ThreadPoolExecutor(min(max_concurrent, len(input_strs))) as p:
@@ -160,7 +160,7 @@ def generate_predictions(
     else:
         completions_list = [complete(input_str) for input_str in tqdm(input_strs)]
     def completion_to_pred(completion, inv_transform): 
-        pred = handle_prediction(deserialize_str(completion, settings, ignore_last=False, steps=steps), expected_length=steps, strict=strict_handling)
+        pred = handle_prediction(deserialize_str(completion, settings, ignore_last=True, steps=steps), expected_length=steps, strict=strict_handling)
         if pred is not None:
             return inv_transform(pred)
         else:

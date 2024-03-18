@@ -35,7 +35,7 @@ def remove_prefix(name):
         return name
 
 
-with open("bin/zero-shot-small.yaml", "r") as file:
+with open("bin/zero-shot.yaml", "r") as file:
     configs = yaml.safe_load(file)["backtests"]
 
 
@@ -144,6 +144,7 @@ def estimate():
             d = {
                 "ind": i,
                 "predictions": [list(arr) for arr in preds["samples"].values],
+                "completions_list": [list(arr) for arr in preds["completions_list"]],
                 "targets": list(test_list[i]),
                 "mae": mae,
                 "pred_length": pred_length,
