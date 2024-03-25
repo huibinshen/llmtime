@@ -1,0 +1,3324 @@
+{
+    "job_id": "local",
+    "instance_type": "local",
+    "model_config": {
+        "prefix": "llmtime"
+    },
+    "backtest_config": {
+        "name": "monash/tourism_monthly",
+        "source": "mlfdatasets",
+        "offset": -24,
+        "prediction_length": 24,
+        "num_rolls": 1
+    },
+    "num_samples": 20,
+    "agg_metrics": [
+        {
+            "sMAPE[0.5]": 0.26611786604431303,
+            "MASE[0.5]": 2.1395373232940433,
+            "NRMSE[mean]": 0.7868810163196129,
+            "ND[0.5]": 0.15632640771288456,
+            "mean_weighted_sum_quantile_loss": 0.1250268260997281,
+            "average_mean_scaled_quantile_loss": 1.716031322535818,
+            "MAE_coverage": 0.04440649666059501
+        }
+    ],
+    "item_metrics": [
+        {
+            "sMAPE[0.5]": 0.08107160684823127,
+            "MASE[0.5]": 1.4516910905943703,
+            "NRMSE[mean]": 0.16529916412157725,
+            "ND[0.5]": 0.08098591784061908,
+            "mean_weighted_sum_quantile_loss": 0.07114921081428253,
+            "average_mean_scaled_quantile_loss": 1.275365868485723,
+            "MAE_coverage": 0.2777777777777778
+        },
+        {
+            "sMAPE[0.5]": 0.16613749585471868,
+            "MASE[0.5]": 2.006474317050554,
+            "NRMSE[mean]": 0.21794648933570457,
+            "ND[0.5]": 0.16387862182211224,
+            "mean_weighted_sum_quantile_loss": 0.1257345739222159,
+            "average_mean_scaled_quantile_loss": 1.5394515192718072,
+            "MAE_coverage": 0.11944444444444441
+        },
+        {
+            "sMAPE[0.5]": 0.11710752680052665,
+            "MASE[0.5]": 1.2051178904282291,
+            "NRMSE[mean]": 0.13256879745726097,
+            "ND[0.5]": 0.11503503668367418,
+            "mean_weighted_sum_quantile_loss": 0.08608850162946849,
+            "average_mean_scaled_quantile_loss": 0.9018712599633223,
+            "MAE_coverage": 0.049999999999999996
+        },
+        {
+            "sMAPE[0.5]": 0.15719120279890622,
+            "MASE[0.5]": 1.9136862768113279,
+            "NRMSE[mean]": 0.17405529001010644,
+            "ND[0.5]": 0.1573086045064766,
+            "mean_weighted_sum_quantile_loss": 0.12111064109731477,
+            "average_mean_scaled_quantile_loss": 1.4733318153248962,
+            "MAE_coverage": 0.11203703703703703
+        },
+        {
+            "sMAPE[0.5]": 0.12671838180099357,
+            "MASE[0.5]": 1.5827370340847706,
+            "NRMSE[mean]": 0.1528381615306279,
+            "ND[0.5]": 0.1228049841580162,
+            "mean_weighted_sum_quantile_loss": 0.09903609700813533,
+            "average_mean_scaled_quantile_loss": 1.2763985071183765,
+            "MAE_coverage": 0.21296296296296297
+        },
+        {
+            "sMAPE[0.5]": 0.18311299122207245,
+            "MASE[0.5]": 1.844279421495368,
+            "NRMSE[mean]": 0.24516102535456297,
+            "ND[0.5]": 0.18230549199059065,
+            "mean_weighted_sum_quantile_loss": 0.15833852499064585,
+            "average_mean_scaled_quantile_loss": 1.6018194519628093,
+            "MAE_coverage": 0.24074074074074078
+        },
+        {
+            "sMAPE[0.5]": 0.20113641164990562,
+            "MASE[0.5]": 1.203499773571237,
+            "NRMSE[mean]": 0.24468901363808637,
+            "ND[0.5]": 0.1979443822856093,
+            "mean_weighted_sum_quantile_loss": 0.16198989186858448,
+            "average_mean_scaled_quantile_loss": 0.9848968479609331,
+            "MAE_coverage": 0.31018518518518523
+        },
+        {
+            "sMAPE[0.5]": 0.12484190346808836,
+            "MASE[0.5]": 0.47802459375703693,
+            "NRMSE[mean]": 0.1596423230206608,
+            "ND[0.5]": 0.1264260629732678,
+            "mean_weighted_sum_quantile_loss": 0.09811628846349627,
+            "average_mean_scaled_quantile_loss": 0.37098362339756036,
+            "MAE_coverage": 0.17129629629629628
+        },
+        {
+            "sMAPE[0.5]": 0.08822309316132611,
+            "MASE[0.5]": 0.8381966659311427,
+            "NRMSE[mean]": 0.11942136387314921,
+            "ND[0.5]": 0.08872038807018467,
+            "mean_weighted_sum_quantile_loss": 0.07115392027067118,
+            "average_mean_scaled_quantile_loss": 0.6722353230874769,
+            "MAE_coverage": 0.05462962962962963
+        },
+        {
+            "sMAPE[0.5]": 0.2312705043002845,
+            "MASE[0.5]": 1.7750931505684238,
+            "NRMSE[mean]": 0.2597546055844323,
+            "ND[0.5]": 0.2214841534984444,
+            "mean_weighted_sum_quantile_loss": 0.1842589567270288,
+            "average_mean_scaled_quantile_loss": 1.4767503988466135,
+            "MAE_coverage": 0.29629629629629634
+        },
+        {
+            "sMAPE[0.5]": 0.2510468759447525,
+            "MASE[0.5]": 2.5274255634710143,
+            "NRMSE[mean]": 0.3295433702478092,
+            "ND[0.5]": 0.24297857648966667,
+            "mean_weighted_sum_quantile_loss": 0.20793007585731668,
+            "average_mean_scaled_quantile_loss": 2.1628564819524274,
+            "MAE_coverage": 0.3287037037037037
+        },
+        {
+            "sMAPE[0.5]": 0.23431190581379333,
+            "MASE[0.5]": 1.6989922123207366,
+            "NRMSE[mean]": 0.29931965085553824,
+            "ND[0.5]": 0.22938718587939344,
+            "mean_weighted_sum_quantile_loss": 0.18617889282244887,
+            "average_mean_scaled_quantile_loss": 1.3789632049026035,
+            "MAE_coverage": 0.23148148148148145
+        },
+        {
+            "sMAPE[0.5]": 0.08505736925795089,
+            "MASE[0.5]": 0.6682481917637159,
+            "NRMSE[mean]": 0.09123409712958676,
+            "ND[0.5]": 0.08661751175368755,
+            "mean_weighted_sum_quantile_loss": 0.06494186044318143,
+            "average_mean_scaled_quantile_loss": 0.5010220212090082,
+            "MAE_coverage": 0.1037037037037037
+        },
+        {
+            "sMAPE[0.5]": 0.1779938641788744,
+            "MASE[0.5]": 3.4120079693898653,
+            "NRMSE[mean]": 0.224569120928889,
+            "ND[0.5]": 0.18968375221092337,
+            "mean_weighted_sum_quantile_loss": 0.15362222574901932,
+            "average_mean_scaled_quantile_loss": 2.76333767347775,
+            "MAE_coverage": 0.40277777777777785
+        },
+        {
+            "sMAPE[0.5]": 0.0780868543246402,
+            "MASE[0.5]": 0.7560484553002986,
+            "NRMSE[mean]": 0.10163213729755764,
+            "ND[0.5]": 0.07637638247591291,
+            "mean_weighted_sum_quantile_loss": 0.0599317949342332,
+            "average_mean_scaled_quantile_loss": 0.5932637749331906,
+            "MAE_coverage": 0.2870370370370371
+        },
+        {
+            "sMAPE[0.5]": 0.033716396306586884,
+            "MASE[0.5]": 0.4754818919445975,
+            "NRMSE[mean]": 0.04222973368759857,
+            "ND[0.5]": 0.03380905864936546,
+            "mean_weighted_sum_quantile_loss": 0.02654059632831289,
+            "average_mean_scaled_quantile_loss": 0.3732601101498252,
+            "MAE_coverage": 0.07314814814814814
+        },
+        {
+            "sMAPE[0.5]": 0.09401069980125172,
+            "MASE[0.5]": 0.8966858964693342,
+            "NRMSE[mean]": 0.11762607621078017,
+            "ND[0.5]": 0.09388163945086453,
+            "mean_weighted_sum_quantile_loss": 0.07451096697433747,
+            "average_mean_scaled_quantile_loss": 0.7116719904870118,
+            "MAE_coverage": 0.07037037037037037
+        },
+        {
+            "sMAPE[0.5]": 0.11168570889666962,
+            "MASE[0.5]": 1.4198340817667665,
+            "NRMSE[mean]": 0.12640882862921732,
+            "ND[0.5]": 0.11660013980816196,
+            "mean_weighted_sum_quantile_loss": 0.09125760897904399,
+            "average_mean_scaled_quantile_loss": 1.1112393489593542,
+            "MAE_coverage": 0.41666666666666674
+        },
+        {
+            "sMAPE[0.5]": 0.1346546675136538,
+            "MASE[0.5]": 2.071108240747746,
+            "NRMSE[mean]": 0.15827680302329647,
+            "ND[0.5]": 0.13169421957797284,
+            "mean_weighted_sum_quantile_loss": 0.09988003234591553,
+            "average_mean_scaled_quantile_loss": 1.5707778119699407,
+            "MAE_coverage": 0.06666666666666667
+        },
+        {
+            "sMAPE[0.5]": 0.14998354076683493,
+            "MASE[0.5]": 1.4945357717773369,
+            "NRMSE[mean]": 0.1788259683084129,
+            "ND[0.5]": 0.14551644779653525,
+            "mean_weighted_sum_quantile_loss": 0.11426197669830734,
+            "average_mean_scaled_quantile_loss": 1.1735347729789405,
+            "MAE_coverage": 0.05092592592592592
+        },
+        {
+            "sMAPE[0.5]": 0.22151182326051547,
+            "MASE[0.5]": 1.8004159971730769,
+            "NRMSE[mean]": 0.2548643876881269,
+            "ND[0.5]": 0.22104108514704204,
+            "mean_weighted_sum_quantile_loss": 0.165253417214235,
+            "average_mean_scaled_quantile_loss": 1.3460162654472336,
+            "MAE_coverage": 0.08888888888888889
+        },
+        {
+            "sMAPE[0.5]": 0.11954204662965928,
+            "MASE[0.5]": 1.1966048523548682,
+            "NRMSE[mean]": 0.1571347191235488,
+            "ND[0.5]": 0.11901597948648286,
+            "mean_weighted_sum_quantile_loss": 0.09414373145039386,
+            "average_mean_scaled_quantile_loss": 0.9465354682488611,
+            "MAE_coverage": 0.08055555555555555
+        },
+        {
+            "sMAPE[0.5]": 0.2155812101555585,
+            "MASE[0.5]": 2.008467044232677,
+            "NRMSE[mean]": 0.2784718315801914,
+            "ND[0.5]": 0.22410446740334697,
+            "mean_weighted_sum_quantile_loss": 0.16875415308854116,
+            "average_mean_scaled_quantile_loss": 1.5124069545909868,
+            "MAE_coverage": 0.18055555555555555
+        },
+        {
+            "sMAPE[0.5]": 0.21152938957559655,
+            "MASE[0.5]": 1.2219377268413496,
+            "NRMSE[mean]": 0.27126837323850633,
+            "ND[0.5]": 0.21928558416446162,
+            "mean_weighted_sum_quantile_loss": 0.16397348203844941,
+            "average_mean_scaled_quantile_loss": 0.9137189052703624,
+            "MAE_coverage": 0.09814814814814815
+        },
+        {
+            "sMAPE[0.5]": 0.17786557759598132,
+            "MASE[0.5]": 1.1369568659446552,
+            "NRMSE[mean]": 0.21920919131194458,
+            "ND[0.5]": 0.1841759918412642,
+            "mean_weighted_sum_quantile_loss": 0.14280722187399736,
+            "average_mean_scaled_quantile_loss": 0.8815788083609785,
+            "MAE_coverage": 0.08611111111111111
+        },
+        {
+            "sMAPE[0.5]": 0.20605254041350793,
+            "MASE[0.5]": 1.693074097576809,
+            "NRMSE[mean]": 0.2831596266830544,
+            "ND[0.5]": 0.21572008081552557,
+            "mean_weighted_sum_quantile_loss": 0.1589003746236906,
+            "average_mean_scaled_quantile_loss": 1.2471259391038554,
+            "MAE_coverage": 0.0925925925925926
+        },
+        {
+            "sMAPE[0.5]": 0.17480929988867686,
+            "MASE[0.5]": 1.6789991937308202,
+            "NRMSE[mean]": 0.22661887195318414,
+            "ND[0.5]": 0.17399116173710572,
+            "mean_weighted_sum_quantile_loss": 0.1413156850095312,
+            "average_mean_scaled_quantile_loss": 1.3636837574027245,
+            "MAE_coverage": 0.15740740740740738
+        },
+        {
+            "sMAPE[0.5]": 0.15743950727854159,
+            "MASE[0.5]": 3.097020705124469,
+            "NRMSE[mean]": 0.23918026307669793,
+            "ND[0.5]": 0.16509978561257402,
+            "mean_weighted_sum_quantile_loss": 0.1345553199161479,
+            "average_mean_scaled_quantile_loss": 2.5240530156885885,
+            "MAE_coverage": 0.06944444444444445
+        },
+        {
+            "sMAPE[0.5]": 0.1718850666732489,
+            "MASE[0.5]": 3.743803613170575,
+            "NRMSE[mean]": 0.2189781963707245,
+            "ND[0.5]": 0.16868097163091264,
+            "mean_weighted_sum_quantile_loss": 0.14594729775524304,
+            "average_mean_scaled_quantile_loss": 3.2392392300426334,
+            "MAE_coverage": 0.3101851851851852
+        },
+        {
+            "sMAPE[0.5]": 0.11207029909407107,
+            "MASE[0.5]": 1.3719797098244253,
+            "NRMSE[mean]": 0.14339296633810944,
+            "ND[0.5]": 0.1093373589128732,
+            "mean_weighted_sum_quantile_loss": 0.08153646757231187,
+            "average_mean_scaled_quantile_loss": 1.0231304307351266,
+            "MAE_coverage": 0.08796296296296297
+        },
+        {
+            "sMAPE[0.5]": 0.08371455697784551,
+            "MASE[0.5]": 1.1686543254029822,
+            "NRMSE[mean]": 0.12173082708769725,
+            "ND[0.5]": 0.08217613260890606,
+            "mean_weighted_sum_quantile_loss": 0.06445323272867111,
+            "average_mean_scaled_quantile_loss": 0.9166110258929749,
+            "MAE_coverage": 0.06388888888888891
+        },
+        {
+            "sMAPE[0.5]": 0.08928811923032842,
+            "MASE[0.5]": 1.5950843652925972,
+            "NRMSE[mean]": 0.13810281958546705,
+            "ND[0.5]": 0.09184447200913298,
+            "mean_weighted_sum_quantile_loss": 0.07028655588573103,
+            "average_mean_scaled_quantile_loss": 1.220683008253839,
+            "MAE_coverage": 0.12962962962962965
+        },
+        {
+            "sMAPE[0.5]": 0.11952383133976202,
+            "MASE[0.5]": 1.5725753073320359,
+            "NRMSE[mean]": 0.15588850659219164,
+            "ND[0.5]": 0.10650306837295313,
+            "mean_weighted_sum_quantile_loss": 0.0872600626203112,
+            "average_mean_scaled_quantile_loss": 1.28844193777047,
+            "MAE_coverage": 0.12037037037037036
+        },
+        {
+            "sMAPE[0.5]": 0.0952135719281229,
+            "MASE[0.5]": 1.747214035883654,
+            "NRMSE[mean]": 0.1613343815228202,
+            "ND[0.5]": 0.0968562953707902,
+            "mean_weighted_sum_quantile_loss": 0.08525378703885811,
+            "average_mean_scaled_quantile_loss": 1.5379135941167847,
+            "MAE_coverage": 0.23148148148148145
+        },
+        {
+            "sMAPE[0.5]": 0.15040808869143954,
+            "MASE[0.5]": 2.5239528204852832,
+            "NRMSE[mean]": 0.22422054054943785,
+            "ND[0.5]": 0.15191390385811196,
+            "mean_weighted_sum_quantile_loss": 0.13030619357672346,
+            "average_mean_scaled_quantile_loss": 2.1649544673136276,
+            "MAE_coverage": 0.2638888888888889
+        },
+        {
+            "sMAPE[0.5]": 0.06236321438761628,
+            "MASE[0.5]": 1.2848177646237902,
+            "NRMSE[mean]": 0.07846879482096755,
+            "ND[0.5]": 0.06260806738943228,
+            "mean_weighted_sum_quantile_loss": 0.04526638137131344,
+            "average_mean_scaled_quantile_loss": 0.9289386072938528,
+            "MAE_coverage": 0.24999999999999994
+        },
+        {
+            "sMAPE[0.5]": 0.20627596455109054,
+            "MASE[0.5]": 2.14659434505986,
+            "NRMSE[mean]": 0.2393475594341744,
+            "ND[0.5]": 0.1993390664318068,
+            "mean_weighted_sum_quantile_loss": 0.15562014671016533,
+            "average_mean_scaled_quantile_loss": 1.675804612136604,
+            "MAE_coverage": 0.10648148148148148
+        },
+        {
+            "sMAPE[0.5]": 0.16922953293408724,
+            "MASE[0.5]": 1.2899019744705178,
+            "NRMSE[mean]": 0.19646657018356561,
+            "ND[0.5]": 0.1651914037016801,
+            "mean_weighted_sum_quantile_loss": 0.12538357246769932,
+            "average_mean_scaled_quantile_loss": 0.979061343799258,
+            "MAE_coverage": 0.04074074074074073
+        },
+        {
+            "sMAPE[0.5]": 0.3119765266143886,
+            "MASE[0.5]": 1.4476204181902215,
+            "NRMSE[mean]": 0.36543864826479194,
+            "ND[0.5]": 0.3075440949757649,
+            "mean_weighted_sum_quantile_loss": 0.2358145849357568,
+            "average_mean_scaled_quantile_loss": 1.1099871974032027,
+            "MAE_coverage": 0.12314814814814813
+        },
+        {
+            "sMAPE[0.5]": 0.23159827946170797,
+            "MASE[0.5]": 1.2287671776420437,
+            "NRMSE[mean]": 0.31236635186516154,
+            "ND[0.5]": 0.22004898441847495,
+            "mean_weighted_sum_quantile_loss": 0.17191260764413335,
+            "average_mean_scaled_quantile_loss": 0.9599706640510645,
+            "MAE_coverage": 0.08333333333333333
+        },
+        {
+            "sMAPE[0.5]": 0.3460574822783622,
+            "MASE[0.5]": 1.953429258509063,
+            "NRMSE[mean]": 0.4421117132044138,
+            "ND[0.5]": 0.35746459571162,
+            "mean_weighted_sum_quantile_loss": 0.2803550186412841,
+            "average_mean_scaled_quantile_loss": 1.5320501743494361,
+            "MAE_coverage": 0.20833333333333334
+        },
+        {
+            "sMAPE[0.5]": 0.3768261171241451,
+            "MASE[0.5]": 1.2299847073045582,
+            "NRMSE[mean]": 0.5165903639597788,
+            "ND[0.5]": 0.40269725221807073,
+            "mean_weighted_sum_quantile_loss": 0.29887001644096767,
+            "average_mean_scaled_quantile_loss": 0.9128583512042054,
+            "MAE_coverage": 0.13240740740740742
+        },
+        {
+            "sMAPE[0.5]": 0.16736851974041275,
+            "MASE[0.5]": 0.8516837325349287,
+            "NRMSE[mean]": 0.247277294027497,
+            "ND[0.5]": 0.17084704671066242,
+            "mean_weighted_sum_quantile_loss": 0.14303660777486205,
+            "average_mean_scaled_quantile_loss": 0.7130468705446242,
+            "MAE_coverage": 0.1388888888888889
+        },
+        {
+            "sMAPE[0.5]": 0.2859425706068444,
+            "MASE[0.5]": 1.234161291600633,
+            "NRMSE[mean]": 0.46053794721093516,
+            "ND[0.5]": 0.2944223684440481,
+            "mean_weighted_sum_quantile_loss": 0.24482596689910663,
+            "average_mean_scaled_quantile_loss": 1.0262628248063856,
+            "MAE_coverage": 0.08425925925925927
+        },
+        {
+            "sMAPE[0.5]": 0.18278093676124363,
+            "MASE[0.5]": 1.4595824223112432,
+            "NRMSE[mean]": 0.2367568444799623,
+            "ND[0.5]": 0.18183840802270937,
+            "mean_weighted_sum_quantile_loss": 0.15231988635012234,
+            "average_mean_scaled_quantile_loss": 1.2226428459345038,
+            "MAE_coverage": 0.17129629629629628
+        },
+        {
+            "sMAPE[0.5]": 0.262989840803401,
+            "MASE[0.5]": 4.532946330180152,
+            "NRMSE[mean]": 0.412855415843086,
+            "ND[0.5]": 0.29077689625694975,
+            "mean_weighted_sum_quantile_loss": 0.22625897312101598,
+            "average_mean_scaled_quantile_loss": 3.5271708140557814,
+            "MAE_coverage": 0.14351851851851852
+        },
+        {
+            "sMAPE[0.5]": 0.212681164870289,
+            "MASE[0.5]": 2.5503814371167484,
+            "NRMSE[mean]": 0.28939789182016495,
+            "ND[0.5]": 0.21658172588832483,
+            "mean_weighted_sum_quantile_loss": 0.17209821222049657,
+            "average_mean_scaled_quantile_loss": 2.0265610314438525,
+            "MAE_coverage": 0.0351851851851852
+        },
+        {
+            "sMAPE[0.5]": 0.1952801191190261,
+            "MASE[0.5]": 1.468338674113559,
+            "NRMSE[mean]": 0.24711184280738974,
+            "ND[0.5]": 0.19136211779384812,
+            "mean_weighted_sum_quantile_loss": 0.15629622872671523,
+            "average_mean_scaled_quantile_loss": 1.199274965721101,
+            "MAE_coverage": 0.1388888888888889
+        },
+        {
+            "sMAPE[0.5]": 0.18197979532696018,
+            "MASE[0.5]": 1.7088638116015176,
+            "NRMSE[mean]": 0.2656062156055443,
+            "ND[0.5]": 0.16879658799889677,
+            "mean_weighted_sum_quantile_loss": 0.1283379311295851,
+            "average_mean_scaled_quantile_loss": 1.2992682421080053,
+            "MAE_coverage": 0.05925925925925925
+        },
+        {
+            "sMAPE[0.5]": 0.18414818456130275,
+            "MASE[0.5]": 3.079619420154438,
+            "NRMSE[mean]": 0.28163549948634536,
+            "ND[0.5]": 0.18130401330750373,
+            "mean_weighted_sum_quantile_loss": 0.13753201867916884,
+            "average_mean_scaled_quantile_loss": 2.3361108664431414,
+            "MAE_coverage": 0.2175925925925926
+        },
+        {
+            "sMAPE[0.5]": 0.12231511534705224,
+            "MASE[0.5]": 1.2004621041226977,
+            "NRMSE[mean]": 0.1561292756594471,
+            "ND[0.5]": 0.10793960997788576,
+            "mean_weighted_sum_quantile_loss": 0.09297043744748443,
+            "average_mean_scaled_quantile_loss": 1.0339808248545692,
+            "MAE_coverage": 0.1527777777777778
+        },
+        {
+            "sMAPE[0.5]": 0.18796828143846533,
+            "MASE[0.5]": 3.2186104354048872,
+            "NRMSE[mean]": 0.25010314861569866,
+            "ND[0.5]": 0.18481357156580241,
+            "mean_weighted_sum_quantile_loss": 0.1476956629736367,
+            "average_mean_scaled_quantile_loss": 2.5721855710241197,
+            "MAE_coverage": 0.2268518518518519
+        },
+        {
+            "sMAPE[0.5]": 0.1667183874643112,
+            "MASE[0.5]": 2.432644269506493,
+            "NRMSE[mean]": 0.2677633724567513,
+            "ND[0.5]": 0.1738220937296276,
+            "mean_weighted_sum_quantile_loss": 0.14711403868853623,
+            "average_mean_scaled_quantile_loss": 2.0588644141882457,
+            "MAE_coverage": 0.21759259259259256
+        },
+        {
+            "sMAPE[0.5]": 0.10680021253935372,
+            "MASE[0.5]": 1.6205082442614582,
+            "NRMSE[mean]": 0.13544755810152204,
+            "ND[0.5]": 0.10968624869715302,
+            "mean_weighted_sum_quantile_loss": 0.08221947942896755,
+            "average_mean_scaled_quantile_loss": 1.2147132921046424,
+            "MAE_coverage": 0.09351851851851851
+        },
+        {
+            "sMAPE[0.5]": 0.1863390363756936,
+            "MASE[0.5]": 2.339794956524879,
+            "NRMSE[mean]": 0.24004838494727712,
+            "ND[0.5]": 0.19035122041601968,
+            "mean_weighted_sum_quantile_loss": 0.14737741705440688,
+            "average_mean_scaled_quantile_loss": 1.8115614723978115,
+            "MAE_coverage": 0.1212962962962963
+        },
+        {
+            "sMAPE[0.5]": 0.28258267799562925,
+            "MASE[0.5]": 3.191617348855401,
+            "NRMSE[mean]": 0.3813242239587885,
+            "ND[0.5]": 0.3014035369920469,
+            "mean_weighted_sum_quantile_loss": 0.23001894701721307,
+            "average_mean_scaled_quantile_loss": 2.4357128293586015,
+            "MAE_coverage": 0.2222222222222222
+        },
+        {
+            "sMAPE[0.5]": 0.1817102122888793,
+            "MASE[0.5]": 1.6964174004373025,
+            "NRMSE[mean]": 0.2549774597847477,
+            "ND[0.5]": 0.18760018625827812,
+            "mean_weighted_sum_quantile_loss": 0.1550611078918322,
+            "average_mean_scaled_quantile_loss": 1.4021753752239823,
+            "MAE_coverage": 0.03611111111111112
+        },
+        {
+            "sMAPE[0.5]": 0.16260712927338347,
+            "MASE[0.5]": 1.9225558896734583,
+            "NRMSE[mean]": 0.25187200999068265,
+            "ND[0.5]": 0.16787523440212998,
+            "mean_weighted_sum_quantile_loss": 0.13740822439582773,
+            "average_mean_scaled_quantile_loss": 1.5736388517496478,
+            "MAE_coverage": 0.023148148148148178
+        },
+        {
+            "sMAPE[0.5]": 0.18610836112770213,
+            "MASE[0.5]": 1.7546198652516394,
+            "NRMSE[mean]": 0.2610172045732071,
+            "ND[0.5]": 0.1893404895034653,
+            "mean_weighted_sum_quantile_loss": 0.15894127133997754,
+            "average_mean_scaled_quantile_loss": 1.4729100618300217,
+            "MAE_coverage": 0.09351851851851853
+        },
+        {
+            "sMAPE[0.5]": 0.24353410489184957,
+            "MASE[0.5]": 1.830515617079552,
+            "NRMSE[mean]": 0.34784488130035274,
+            "ND[0.5]": 0.25283436970430573,
+            "mean_weighted_sum_quantile_loss": 0.21444674175264664,
+            "average_mean_scaled_quantile_loss": 1.552589983193888,
+            "MAE_coverage": 0.09537037037037038
+        },
+        {
+            "sMAPE[0.5]": 0.21808677313779726,
+            "MASE[0.5]": 1.2881083246977545,
+            "NRMSE[mean]": 0.2633264519604436,
+            "ND[0.5]": 0.21502514631685166,
+            "mean_weighted_sum_quantile_loss": 0.17101592757035544,
+            "average_mean_scaled_quantile_loss": 1.0244710617923625,
+            "MAE_coverage": 0.09259259259259259
+        },
+        {
+            "sMAPE[0.5]": 0.2727154929468421,
+            "MASE[0.5]": 3.0208284909869385,
+            "NRMSE[mean]": 0.363759634539421,
+            "ND[0.5]": 0.27628109001491513,
+            "mean_weighted_sum_quantile_loss": 0.2247613709392062,
+            "average_mean_scaled_quantile_loss": 2.457517280570247,
+            "MAE_coverage": 0.10833333333333334
+        },
+        {
+            "sMAPE[0.5]": 0.23287068230998206,
+            "MASE[0.5]": 2.8749496734871554,
+            "NRMSE[mean]": 0.30535394957837,
+            "ND[0.5]": 0.24142650828517184,
+            "mean_weighted_sum_quantile_loss": 0.18615013797956959,
+            "average_mean_scaled_quantile_loss": 2.216708853577128,
+            "MAE_coverage": 0.19907407407407407
+        },
+        {
+            "sMAPE[0.5]": 0.2152957188539457,
+            "MASE[0.5]": 4.053328598934583,
+            "NRMSE[mean]": 0.2815909121057736,
+            "ND[0.5]": 0.21118544173070997,
+            "mean_weighted_sum_quantile_loss": 0.17965100432021772,
+            "average_mean_scaled_quantile_loss": 3.448081210858242,
+            "MAE_coverage": 0.24074074074074078
+        },
+        {
+            "sMAPE[0.5]": 0.25775779094324114,
+            "MASE[0.5]": 4.117435873484573,
+            "NRMSE[mean]": 0.34691355696955595,
+            "ND[0.5]": 0.25325997775115544,
+            "mean_weighted_sum_quantile_loss": 0.21858997090535712,
+            "average_mean_scaled_quantile_loss": 3.5537797791090586,
+            "MAE_coverage": 0.32407407407407407
+        },
+        {
+            "sMAPE[0.5]": 0.20161247378524563,
+            "MASE[0.5]": 2.1205948447852205,
+            "NRMSE[mean]": 0.31146015873457095,
+            "ND[0.5]": 0.21414509951855468,
+            "mean_weighted_sum_quantile_loss": 0.16985511733980316,
+            "average_mean_scaled_quantile_loss": 1.682008540008482,
+            "MAE_coverage": 0.08888888888888888
+        },
+        {
+            "sMAPE[0.5]": 0.19698173126434668,
+            "MASE[0.5]": 2.3581946562287297,
+            "NRMSE[mean]": 0.3349583165749049,
+            "ND[0.5]": 0.21644748902669544,
+            "mean_weighted_sum_quantile_loss": 0.1690520458683274,
+            "average_mean_scaled_quantile_loss": 1.8418214643370407,
+            "MAE_coverage": 0.07407407407407408
+        },
+        {
+            "sMAPE[0.5]": 0.07330452551417875,
+            "MASE[0.5]": 0.7832389266256974,
+            "NRMSE[mean]": 0.13432175153600218,
+            "ND[0.5]": 0.06936237581711018,
+            "mean_weighted_sum_quantile_loss": 0.06491533227943919,
+            "average_mean_scaled_quantile_loss": 0.7330229764643712,
+            "MAE_coverage": 0.12222222222222223
+        },
+        {
+            "sMAPE[0.5]": 0.27562090882291507,
+            "MASE[0.5]": 2.1277601055280466,
+            "NRMSE[mean]": 0.3752945238091716,
+            "ND[0.5]": 0.2697474963441077,
+            "mean_weighted_sum_quantile_loss": 0.2140373924103116,
+            "average_mean_scaled_quantile_loss": 1.6883204879905478,
+            "MAE_coverage": 0.10555555555555556
+        },
+        {
+            "sMAPE[0.5]": 0.07602616179505166,
+            "MASE[0.5]": 1.1102732126793127,
+            "NRMSE[mean]": 0.14403245340115864,
+            "ND[0.5]": 0.07997305167995819,
+            "mean_weighted_sum_quantile_loss": 0.06482441284774565,
+            "average_mean_scaled_quantile_loss": 0.8999632701343265,
+            "MAE_coverage": 0.05925925925925925
+        },
+        {
+            "sMAPE[0.5]": 0.18391372077990922,
+            "MASE[0.5]": 2.8472142311054065,
+            "NRMSE[mean]": 0.3628280381723175,
+            "ND[0.5]": 0.20656146498264413,
+            "mean_weighted_sum_quantile_loss": 0.1721106568381458,
+            "average_mean_scaled_quantile_loss": 2.3723491286994984,
+            "MAE_coverage": 0.16666666666666666
+        },
+        {
+            "sMAPE[0.5]": 0.08815555711126422,
+            "MASE[0.5]": 1.7061552035033103,
+            "NRMSE[mean]": 0.20286659497776532,
+            "ND[0.5]": 0.09786055972260271,
+            "mean_weighted_sum_quantile_loss": 0.08345699540716248,
+            "average_mean_scaled_quantile_loss": 1.455035485044281,
+            "MAE_coverage": 0.07314814814814813
+        },
+        {
+            "sMAPE[0.5]": 0.15701999790656698,
+            "MASE[0.5]": 2.615462238520139,
+            "NRMSE[mean]": 0.20326992436677616,
+            "ND[0.5]": 0.15018439402051217,
+            "mean_weighted_sum_quantile_loss": 0.12081100545496261,
+            "average_mean_scaled_quantile_loss": 2.103924477811916,
+            "MAE_coverage": 0.09722222222222222
+        },
+        {
+            "sMAPE[0.5]": 0.1518946256287443,
+            "MASE[0.5]": 1.102701582386384,
+            "NRMSE[mean]": 0.1721882165997293,
+            "ND[0.5]": 0.1457790414370556,
+            "mean_weighted_sum_quantile_loss": 0.10932761406052595,
+            "average_mean_scaled_quantile_loss": 0.8269757561488928,
+            "MAE_coverage": 0.18055555555555558
+        },
+        {
+            "sMAPE[0.5]": 0.23011777305039116,
+            "MASE[0.5]": 1.8699305432281417,
+            "NRMSE[mean]": 0.24478845999112048,
+            "ND[0.5]": 0.21725828023349103,
+            "mean_weighted_sum_quantile_loss": 0.17139390228143686,
+            "average_mean_scaled_quantile_loss": 1.4751782645737475,
+            "MAE_coverage": 0.2962962962962963
+        },
+        {
+            "sMAPE[0.5]": 0.1832396915422011,
+            "MASE[0.5]": 2.6218721278022126,
+            "NRMSE[mean]": 0.21361010185995352,
+            "ND[0.5]": 0.17234976011926276,
+            "mean_weighted_sum_quantile_loss": 0.146577372435048,
+            "average_mean_scaled_quantile_loss": 2.2298094705092915,
+            "MAE_coverage": 0.31018518518518523
+        },
+        {
+            "sMAPE[0.5]": 0.17266412558348562,
+            "MASE[0.5]": 1.4267769883544315,
+            "NRMSE[mean]": 0.19221916610285625,
+            "ND[0.5]": 0.16772493364832167,
+            "mean_weighted_sum_quantile_loss": 0.12758551469134732,
+            "average_mean_scaled_quantile_loss": 1.0853250762981723,
+            "MAE_coverage": 0.11203703703703703
+        },
+        {
+            "sMAPE[0.5]": 0.2579768659559948,
+            "MASE[0.5]": 1.514667758044056,
+            "NRMSE[mean]": 0.28755301305021697,
+            "ND[0.5]": 0.2396373446580243,
+            "mean_weighted_sum_quantile_loss": 0.1913600978493023,
+            "average_mean_scaled_quantile_loss": 1.2095233770935054,
+            "MAE_coverage": 0.24074074074074078
+        },
+        {
+            "sMAPE[0.5]": 0.2791757566800414,
+            "MASE[0.5]": 1.2959031709773738,
+            "NRMSE[mean]": 0.314262791203375,
+            "ND[0.5]": 0.25598894498607255,
+            "mean_weighted_sum_quantile_loss": 0.21763040080470453,
+            "average_mean_scaled_quantile_loss": 1.1017191641585835,
+            "MAE_coverage": 0.36574074074074076
+        },
+        {
+            "sMAPE[0.5]": 0.21319364816202277,
+            "MASE[0.5]": 1.4077404983724915,
+            "NRMSE[mean]": 0.2595555766652628,
+            "ND[0.5]": 0.19731801734021218,
+            "mean_weighted_sum_quantile_loss": 0.16758505819878344,
+            "average_mean_scaled_quantile_loss": 1.1956144528949721,
+            "MAE_coverage": 0.07407407407407407
+        },
+        {
+            "sMAPE[0.5]": 0.15899149308930421,
+            "MASE[0.5]": 1.0617554148777186,
+            "NRMSE[mean]": 0.1824534629681989,
+            "ND[0.5]": 0.15407296758644198,
+            "mean_weighted_sum_quantile_loss": 0.12011604750967386,
+            "average_mean_scaled_quantile_loss": 0.8277497724287891,
+            "MAE_coverage": 0.18981481481481483
+        },
+        {
+            "sMAPE[0.5]": 0.24587665647932236,
+            "MASE[0.5]": 4.360277137978395,
+            "NRMSE[mean]": 0.34762432185041914,
+            "ND[0.5]": 0.2701132309054301,
+            "mean_weighted_sum_quantile_loss": 0.20522279615006872,
+            "average_mean_scaled_quantile_loss": 3.3127894670159113,
+            "MAE_coverage": 0.162037037037037
+        },
+        {
+            "sMAPE[0.5]": 0.2567944651459484,
+            "MASE[0.5]": 3.626839502844234,
+            "NRMSE[mean]": 0.2509728740306738,
+            "ND[0.5]": 0.23456497343518762,
+            "mean_weighted_sum_quantile_loss": 0.19033429047426098,
+            "average_mean_scaled_quantile_loss": 2.942945459112283,
+            "MAE_coverage": 0.3611111111111111
+        },
+        {
+            "sMAPE[0.5]": 0.16355474908896858,
+            "MASE[0.5]": 1.5889737187385407,
+            "NRMSE[mean]": 0.20510364993206257,
+            "ND[0.5]": 0.15360961360153833,
+            "mean_weighted_sum_quantile_loss": 0.12854796623798587,
+            "average_mean_scaled_quantile_loss": 1.3297301852428014,
+            "MAE_coverage": 0.27314814814814814
+        },
+        {
+            "sMAPE[0.5]": 0.20288330778424166,
+            "MASE[0.5]": 1.6445978301232858,
+            "NRMSE[mean]": 0.21630589224810026,
+            "ND[0.5]": 0.18998777326233185,
+            "mean_weighted_sum_quantile_loss": 0.14283956464872943,
+            "average_mean_scaled_quantile_loss": 1.236467137033553,
+            "MAE_coverage": 0.13518518518518519
+        },
+        {
+            "sMAPE[0.5]": 0.1969864806327901,
+            "MASE[0.5]": 1.9223194375000012,
+            "NRMSE[mean]": 0.24250257966624675,
+            "ND[0.5]": 0.19506005516147018,
+            "mean_weighted_sum_quantile_loss": 0.1537143290734322,
+            "average_mean_scaled_quantile_loss": 1.5148567570921994,
+            "MAE_coverage": 0.13425925925925922
+        },
+        {
+            "sMAPE[0.5]": 0.31130305760451743,
+            "MASE[0.5]": 2.5762480968196244,
+            "NRMSE[mean]": 0.3243383031861345,
+            "ND[0.5]": 0.2831776190049574,
+            "mean_weighted_sum_quantile_loss": 0.23087444338264096,
+            "average_mean_scaled_quantile_loss": 2.1004126225046273,
+            "MAE_coverage": 0.3148148148148148
+        },
+        {
+            "sMAPE[0.5]": 0.23659957520026395,
+            "MASE[0.5]": 2.0798204754136433,
+            "NRMSE[mean]": 0.3265881700918234,
+            "ND[0.5]": 0.23393627115632384,
+            "mean_weighted_sum_quantile_loss": 0.20185243421734586,
+            "average_mean_scaled_quantile_loss": 1.7945777438539499,
+            "MAE_coverage": 0.18055555555555558
+        },
+        {
+            "sMAPE[0.5]": 0.21469613394160944,
+            "MASE[0.5]": 2.5694109806447387,
+            "NRMSE[mean]": 0.2403672765468346,
+            "ND[0.5]": 0.20054081529535986,
+            "mean_weighted_sum_quantile_loss": 0.1695388154938603,
+            "average_mean_scaled_quantile_loss": 2.1722006741313287,
+            "MAE_coverage": 0.35185185185185186
+        },
+        {
+            "sMAPE[0.5]": 0.13474681080573717,
+            "MASE[0.5]": 2.4011656226777363,
+            "NRMSE[mean]": 0.16064937706118598,
+            "ND[0.5]": 0.12989601075488613,
+            "mean_weighted_sum_quantile_loss": 0.10505404340878882,
+            "average_mean_scaled_quantile_loss": 1.9419546150072178,
+            "MAE_coverage": 0.21296296296296294
+        },
+        {
+            "sMAPE[0.5]": 0.10662420303914988,
+            "MASE[0.5]": 1.0079621143404747,
+            "NRMSE[mean]": 0.12826871392318331,
+            "ND[0.5]": 0.10387662566355634,
+            "mean_weighted_sum_quantile_loss": 0.0913196115988365,
+            "average_mean_scaled_quantile_loss": 0.8861156992723482,
+            "MAE_coverage": 0.08240740740740742
+        },
+        {
+            "sMAPE[0.5]": 0.2974739319336626,
+            "MASE[0.5]": 0.7691832557531821,
+            "NRMSE[mean]": 0.33333760115993705,
+            "ND[0.5]": 0.29763867712665776,
+            "mean_weighted_sum_quantile_loss": 0.22604088428774627,
+            "average_mean_scaled_quantile_loss": 0.58415413274999,
+            "MAE_coverage": 0.09629629629629628
+        },
+        {
+            "sMAPE[0.5]": 0.410350103239199,
+            "MASE[0.5]": 2.934632822550769,
+            "NRMSE[mean]": 0.5902703329283816,
+            "ND[0.5]": 0.433835434751672,
+            "mean_weighted_sum_quantile_loss": 0.3381041408987104,
+            "average_mean_scaled_quantile_loss": 2.2870688510947215,
+            "MAE_coverage": 0.04722222222222223
+        },
+        {
+            "sMAPE[0.5]": 0.24221495745522229,
+            "MASE[0.5]": 1.6618895412201258,
+            "NRMSE[mean]": 0.36127304732495596,
+            "ND[0.5]": 0.2492598631671792,
+            "mean_weighted_sum_quantile_loss": 0.2232518322513316,
+            "average_mean_scaled_quantile_loss": 1.4884862743741223,
+            "MAE_coverage": 0.10370370370370371
+        },
+        {
+            "sMAPE[0.5]": 0.22279513314175559,
+            "MASE[0.5]": 2.080346335539154,
+            "NRMSE[mean]": 0.38915233632196944,
+            "ND[0.5]": 0.23783567914310585,
+            "mean_weighted_sum_quantile_loss": 0.19161840623119633,
+            "average_mean_scaled_quantile_loss": 1.6760843060265351,
+            "MAE_coverage": 0.10185185185185186
+        },
+        {
+            "sMAPE[0.5]": 0.26239727484283476,
+            "MASE[0.5]": 1.9151542058410491,
+            "NRMSE[mean]": 0.40508754750510534,
+            "ND[0.5]": 0.27814585953545484,
+            "mean_weighted_sum_quantile_loss": 0.23942062264004463,
+            "average_mean_scaled_quantile_loss": 1.6485142478121855,
+            "MAE_coverage": 0.11574074074074073
+        },
+        {
+            "sMAPE[0.5]": 0.45336936132886496,
+            "MASE[0.5]": 1.90991534099864,
+            "NRMSE[mean]": 0.7128676456990891,
+            "ND[0.5]": 0.4636686735693896,
+            "mean_weighted_sum_quantile_loss": 0.4124032144531087,
+            "average_mean_scaled_quantile_loss": 1.6987458305036187,
+            "MAE_coverage": 0.16666666666666666
+        },
+        {
+            "sMAPE[0.5]": 0.3658410324780439,
+            "MASE[0.5]": 3.465528569257994,
+            "NRMSE[mean]": 0.4321265587605651,
+            "ND[0.5]": 0.3766998548068454,
+            "mean_weighted_sum_quantile_loss": 0.2881588706670157,
+            "average_mean_scaled_quantile_loss": 2.6509773923159874,
+            "MAE_coverage": 0.20833333333333331
+        },
+        {
+            "sMAPE[0.5]": 0.29080840770348004,
+            "MASE[0.5]": 3.544156782340798,
+            "NRMSE[mean]": 0.48041381971036956,
+            "ND[0.5]": 0.3142163607853529,
+            "mean_weighted_sum_quantile_loss": 0.2780007909479745,
+            "average_mean_scaled_quantile_loss": 3.135668640142619,
+            "MAE_coverage": 0.0574074074074074
+        },
+        {
+            "sMAPE[0.5]": 0.4253920097237474,
+            "MASE[0.5]": 5.015541441500702,
+            "NRMSE[mean]": 0.649259913796235,
+            "ND[0.5]": 0.4696411968418875,
+            "mean_weighted_sum_quantile_loss": 0.3566810390774895,
+            "average_mean_scaled_quantile_loss": 3.8091814451553723,
+            "MAE_coverage": 0.08703703703703704
+        },
+        {
+            "sMAPE[0.5]": 0.23596740195778168,
+            "MASE[0.5]": 3.5675903483248432,
+            "NRMSE[mean]": 0.3300799717675497,
+            "ND[0.5]": 0.2402385960696904,
+            "mean_weighted_sum_quantile_loss": 0.19961836877837313,
+            "average_mean_scaled_quantile_loss": 2.9643719928977803,
+            "MAE_coverage": 0.12870370370370368
+        },
+        {
+            "sMAPE[0.5]": 0.4039768017868224,
+            "MASE[0.5]": 2.5607341082622788,
+            "NRMSE[mean]": 0.5101160504738381,
+            "ND[0.5]": 0.3909357246043213,
+            "mean_weighted_sum_quantile_loss": 0.30388885616920414,
+            "average_mean_scaled_quantile_loss": 1.9905537154500539,
+            "MAE_coverage": 0.17592592592592593
+        },
+        {
+            "sMAPE[0.5]": 0.34182139543856654,
+            "MASE[0.5]": 2.1562590953088905,
+            "NRMSE[mean]": 0.5185424110143644,
+            "ND[0.5]": 0.359140919605447,
+            "mean_weighted_sum_quantile_loss": 0.31177996391992563,
+            "average_mean_scaled_quantile_loss": 1.8719069486038624,
+            "MAE_coverage": 0.13888888888888892
+        },
+        {
+            "sMAPE[0.5]": 0.4341105027724406,
+            "MASE[0.5]": 1.6549112379160225,
+            "NRMSE[mean]": 0.41488231778832957,
+            "ND[0.5]": 0.3732803954847921,
+            "mean_weighted_sum_quantile_loss": 0.29365266290698677,
+            "average_mean_scaled_quantile_loss": 1.301887529500694,
+            "MAE_coverage": 0.3611111111111111
+        },
+        {
+            "sMAPE[0.5]": 0.6708174924479691,
+            "MASE[0.5]": 3.700027607675036,
+            "NRMSE[mean]": 0.6778482787325103,
+            "ND[0.5]": 0.5563861628125588,
+            "mean_weighted_sum_quantile_loss": 0.4717237621942304,
+            "average_mean_scaled_quantile_loss": 3.13701357074006,
+            "MAE_coverage": 0.39814814814814814
+        },
+        {
+            "sMAPE[0.5]": 0.3826954918586454,
+            "MASE[0.5]": 3.0239222453353807,
+            "NRMSE[mean]": 0.47340563649254613,
+            "ND[0.5]": 0.42941842524552465,
+            "mean_weighted_sum_quantile_loss": 0.3235868407493826,
+            "average_mean_scaled_quantile_loss": 2.278666653580099,
+            "MAE_coverage": 0.28703703703703703
+        },
+        {
+            "sMAPE[0.5]": 0.6226747359346373,
+            "MASE[0.5]": 4.453034168620557,
+            "NRMSE[mean]": 0.4483586160490797,
+            "ND[0.5]": 0.48221364230274916,
+            "mean_weighted_sum_quantile_loss": 0.3588844056408086,
+            "average_mean_scaled_quantile_loss": 3.3141420746040353,
+            "MAE_coverage": 0.412037037037037
+        },
+        {
+            "sMAPE[0.5]": 0.21795568654557462,
+            "MASE[0.5]": 2.2026854030540997,
+            "NRMSE[mean]": 0.3010748251153669,
+            "ND[0.5]": 0.22842568498719107,
+            "mean_weighted_sum_quantile_loss": 0.18581644204947534,
+            "average_mean_scaled_quantile_loss": 1.791808852725027,
+            "MAE_coverage": 0.09444444444444447
+        },
+        {
+            "sMAPE[0.5]": 0.29836087939202,
+            "MASE[0.5]": 0.9001586708333358,
+            "NRMSE[mean]": 0.4151796611294238,
+            "ND[0.5]": 0.291293846153847,
+            "mean_weighted_sum_quantile_loss": 0.24628531623931676,
+            "average_mean_scaled_quantile_loss": 0.761072936620372,
+            "MAE_coverage": 0.06481481481481481
+        },
+        {
+            "sMAPE[0.5]": 0.20598014048032512,
+            "MASE[0.5]": 1.9472808725319393,
+            "NRMSE[mean]": 0.24302223197890213,
+            "ND[0.5]": 0.20943637057775513,
+            "mean_weighted_sum_quantile_loss": 0.14935734283532706,
+            "average_mean_scaled_quantile_loss": 1.3886828542392564,
+            "MAE_coverage": 0.18055555555555558
+        },
+        {
+            "sMAPE[0.5]": 0.41252937429264763,
+            "MASE[0.5]": 1.2731283174603194,
+            "NRMSE[mean]": 0.42140089315864254,
+            "ND[0.5]": 0.37137207547169865,
+            "mean_weighted_sum_quantile_loss": 0.29050350803633873,
+            "average_mean_scaled_quantile_loss": 0.9958967483833059,
+            "MAE_coverage": 0.2824074074074074
+        },
+        {
+            "sMAPE[0.5]": 0.27608255388734715,
+            "MASE[0.5]": 0.9844436837455829,
+            "NRMSE[mean]": 0.34863441519476035,
+            "ND[0.5]": 0.2771655405405405,
+            "mean_weighted_sum_quantile_loss": 0.215061524024024,
+            "average_mean_scaled_quantile_loss": 0.7638610432207825,
+            "MAE_coverage": 0.08333333333333334
+        },
+        {
+            "sMAPE[0.5]": 0.23514729769989237,
+            "MASE[0.5]": 4.2250357568915025,
+            "NRMSE[mean]": 0.2970806700343308,
+            "ND[0.5]": 0.2549382869700988,
+            "mean_weighted_sum_quantile_loss": 0.19508781973923398,
+            "average_mean_scaled_quantile_loss": 3.2331472213467194,
+            "MAE_coverage": 0.2916666666666667
+        },
+        {
+            "sMAPE[0.5]": 0.12710235195514563,
+            "MASE[0.5]": 0.465657727363782,
+            "NRMSE[mean]": 0.1348810753893665,
+            "ND[0.5]": 0.1270478841870824,
+            "mean_weighted_sum_quantile_loss": 0.10521373422420191,
+            "average_mean_scaled_quantile_loss": 0.38563088775373927,
+            "MAE_coverage": 0.12037037037037039
+        },
+        {
+            "sMAPE[0.5]": 0.18401223262593527,
+            "MASE[0.5]": 1.3096323412228805,
+            "NRMSE[mean]": 0.2179787553689717,
+            "ND[0.5]": 0.17768894220283543,
+            "mean_weighted_sum_quantile_loss": 0.14528155967526976,
+            "average_mean_scaled_quantile_loss": 1.0707781068156927,
+            "MAE_coverage": 0.2314814814814815
+        },
+        {
+            "sMAPE[0.5]": 0.6232616053171607,
+            "MASE[0.5]": 3.71654789875836,
+            "NRMSE[mean]": 0.6360096142614532,
+            "ND[0.5]": 0.5052391534391538,
+            "mean_weighted_sum_quantile_loss": 0.4303879600235159,
+            "average_mean_scaled_quantile_loss": 3.1659412331529264,
+            "MAE_coverage": 0.4490740740740741
+        },
+        {
+            "sMAPE[0.5]": 0.7149728347381786,
+            "MASE[0.5]": 2.7645236607142856,
+            "NRMSE[mean]": 0.7263429122223296,
+            "ND[0.5]": 0.5874896907216495,
+            "mean_weighted_sum_quantile_loss": 0.47578705612829325,
+            "average_mean_scaled_quantile_loss": 2.238889626322752,
+            "MAE_coverage": 0.3611111111111111
+        },
+        {
+            "sMAPE[0.5]": 0.20873563904480408,
+            "MASE[0.5]": 1.227762195301029,
+            "NRMSE[mean]": 0.23676751876767854,
+            "ND[0.5]": 0.19824096618357503,
+            "mean_weighted_sum_quantile_loss": 0.15671483199141184,
+            "average_mean_scaled_quantile_loss": 0.970579138440203,
+            "MAE_coverage": 0.24074074074074078
+        },
+        {
+            "sMAPE[0.5]": 0.2729455035604118,
+            "MASE[0.5]": 1.0953742815420615,
+            "NRMSE[mean]": 0.2920795741473291,
+            "ND[0.5]": 0.2547185977859791,
+            "mean_weighted_sum_quantile_loss": 0.20208137105371182,
+            "average_mean_scaled_quantile_loss": 0.8690167838352427,
+            "MAE_coverage": 0.3703703703703704
+        },
+        {
+            "sMAPE[0.5]": 0.13253714282295379,
+            "MASE[0.5]": 2.5778098856065466,
+            "NRMSE[mean]": 0.1869817522663409,
+            "ND[0.5]": 0.13883772314613893,
+            "mean_weighted_sum_quantile_loss": 0.11213487421333064,
+            "average_mean_scaled_quantile_loss": 2.0820161892463958,
+            "MAE_coverage": 0.2037037037037037
+        },
+        {
+            "sMAPE[0.5]": 0.30980325934892755,
+            "MASE[0.5]": 1.5760651611418048,
+            "NRMSE[mean]": 0.4104704349633382,
+            "ND[0.5]": 0.31462636704119856,
+            "mean_weighted_sum_quantile_loss": 0.2410778859758636,
+            "average_mean_scaled_quantile_loss": 1.2076370482913856,
+            "MAE_coverage": 0.05740740740740743
+        },
+        {
+            "sMAPE[0.5]": 0.4011384485735947,
+            "MASE[0.5]": 3.711528666047659,
+            "NRMSE[mean]": 0.44381942504345456,
+            "ND[0.5]": 0.39055203715991993,
+            "mean_weighted_sum_quantile_loss": 0.2991290039076898,
+            "average_mean_scaled_quantile_loss": 2.84270920956704,
+            "MAE_coverage": 0.14166666666666672
+        },
+        {
+            "sMAPE[0.5]": 0.3194473417464382,
+            "MASE[0.5]": 3.0940880819964343,
+            "NRMSE[mean]": 0.5692056004787164,
+            "ND[0.5]": 0.33860025437201907,
+            "mean_weighted_sum_quantile_loss": 0.2976905211093447,
+            "average_mean_scaled_quantile_loss": 2.7202598981976625,
+            "MAE_coverage": 0.07037037037037036
+        },
+        {
+            "sMAPE[0.5]": 0.40686107524279064,
+            "MASE[0.5]": 2.7079822844590886,
+            "NRMSE[mean]": 0.4347016334478244,
+            "ND[0.5]": 0.3717724116743471,
+            "mean_weighted_sum_quantile_loss": 0.2926620488137906,
+            "average_mean_scaled_quantile_loss": 2.131744095673927,
+            "MAE_coverage": 0.09351851851851851
+        },
+        {
+            "sMAPE[0.5]": 0.31308270779280367,
+            "MASE[0.5]": 1.554217712305027,
+            "NRMSE[mean]": 0.43181949677460657,
+            "ND[0.5]": 0.30850878504672913,
+            "mean_weighted_sum_quantile_loss": 0.2593823676012464,
+            "average_mean_scaled_quantile_loss": 1.306726710957059,
+            "MAE_coverage": 0.11574074074074076
+        },
+        {
+            "sMAPE[0.5]": 0.4574029866318181,
+            "MASE[0.5]": 1.964344366776313,
+            "NRMSE[mean]": 0.6122112132941476,
+            "ND[0.5]": 0.4676888297872333,
+            "mean_weighted_sum_quantile_loss": 0.3544180378250589,
+            "average_mean_scaled_quantile_loss": 1.4885946204922018,
+            "MAE_coverage": 0.06944444444444445
+        },
+        {
+            "sMAPE[0.5]": 0.23389501237540444,
+            "MASE[0.5]": 1.377605391705071,
+            "NRMSE[mean]": 0.33807488903512584,
+            "ND[0.5]": 0.23664387096774228,
+            "mean_weighted_sum_quantile_loss": 0.20121397371565145,
+            "average_mean_scaled_quantile_loss": 1.171352775558971,
+            "MAE_coverage": 0.18055555555555555
+        },
+        {
+            "sMAPE[0.5]": 0.27096719004763736,
+            "MASE[0.5]": 3.422703656731071,
+            "NRMSE[mean]": 0.32634696786476225,
+            "ND[0.5]": 0.2602885262261166,
+            "mean_weighted_sum_quantile_loss": 0.1955384221329764,
+            "average_mean_scaled_quantile_loss": 2.571262291771391,
+            "MAE_coverage": 0.0925925925925926
+        },
+        {
+            "sMAPE[0.5]": 0.38218188276668524,
+            "MASE[0.5]": 2.4795961594202898,
+            "NRMSE[mean]": 0.4619791218673119,
+            "ND[0.5]": 0.36910593406593406,
+            "mean_weighted_sum_quantile_loss": 0.27549347008547015,
+            "average_mean_scaled_quantile_loss": 1.8507222109500807,
+            "MAE_coverage": 0.10648148148148147
+        },
+        {
+            "sMAPE[0.5]": 0.10376908997687129,
+            "MASE[0.5]": 1.5375550334168746,
+            "NRMSE[mean]": 0.198305587764522,
+            "ND[0.5]": 0.09474833295871725,
+            "mean_weighted_sum_quantile_loss": 0.09286811012045988,
+            "average_mean_scaled_quantile_loss": 1.507043192219968,
+            "MAE_coverage": 0.05833333333333332
+        },
+        {
+            "sMAPE[0.5]": 0.34807640303073933,
+            "MASE[0.5]": 2.437860571553229,
+            "NRMSE[mean]": 0.6298705462608418,
+            "ND[0.5]": 0.36939234913793106,
+            "mean_weighted_sum_quantile_loss": 0.31215953065134106,
+            "average_mean_scaled_quantile_loss": 2.0601439460926896,
+            "MAE_coverage": 0.07037037037037036
+        },
+        {
+            "sMAPE[0.5]": 0.2769089616184515,
+            "MASE[0.5]": 2.5770831565845156,
+            "NRMSE[mean]": 0.37012286949650625,
+            "ND[0.5]": 0.23909677176470587,
+            "mean_weighted_sum_quantile_loss": 0.21068239853594772,
+            "average_mean_scaled_quantile_loss": 2.270821377672669,
+            "MAE_coverage": 0.07407407407407407
+        },
+        {
+            "sMAPE[0.5]": 0.654942987545843,
+            "MASE[0.5]": 2.3907395158286766,
+            "NRMSE[mean]": 0.8451420415581842,
+            "ND[0.5]": 0.6238605940594056,
+            "mean_weighted_sum_quantile_loss": 0.4981728492849283,
+            "average_mean_scaled_quantile_loss": 1.909082778812331,
+            "MAE_coverage": 0.06574074074074075
+        },
+        {
+            "sMAPE[0.5]": 0.8117354015862043,
+            "MASE[0.5]": 3.0846791176470583,
+            "NRMSE[mean]": 0.9489352766722554,
+            "ND[0.5]": 0.7752168674698794,
+            "mean_weighted_sum_quantile_loss": 0.6017433467202141,
+            "average_mean_scaled_quantile_loss": 2.39440756993464,
+            "MAE_coverage": 0.1277777777777778
+        },
+        {
+            "sMAPE[0.5]": 0.38757006362309615,
+            "MASE[0.5]": 2.434198687106918,
+            "NRMSE[mean]": 0.43606436763702555,
+            "ND[0.5]": 0.37319666011787817,
+            "mean_weighted_sum_quantile_loss": 0.2916755817507095,
+            "average_mean_scaled_quantile_loss": 1.9024723263452132,
+            "MAE_coverage": 0.07407407407407408
+        },
+        {
+            "sMAPE[0.5]": 0.4198938950171362,
+            "MASE[0.5]": 3.741437828077315,
+            "NRMSE[mean]": 0.5917146314157243,
+            "ND[0.5]": 0.419458931061193,
+            "mean_weighted_sum_quantile_loss": 0.3386642292796282,
+            "average_mean_scaled_quantile_loss": 3.0207752526280096,
+            "MAE_coverage": 0.1111111111111111
+        },
+        {
+            "sMAPE[0.5]": 0.15913688221159483,
+            "MASE[0.5]": 1.9866611425047698,
+            "NRMSE[mean]": 0.3448654315243755,
+            "ND[0.5]": 0.1552661453311912,
+            "mean_weighted_sum_quantile_loss": 0.15077475847566923,
+            "average_mean_scaled_quantile_loss": 1.9291929563603318,
+            "MAE_coverage": 0.05925925925925927
+        },
+        {
+            "sMAPE[0.5]": 0.41369486418253065,
+            "MASE[0.5]": 2.1472906209150326,
+            "NRMSE[mean]": 0.4883666104139026,
+            "ND[0.5]": 0.40692593059936893,
+            "mean_weighted_sum_quantile_loss": 0.3117310788643534,
+            "average_mean_scaled_quantile_loss": 1.644960843137255,
+            "MAE_coverage": 0.04722222222222222
+        },
+        {
+            "sMAPE[0.5]": 0.4493496481246433,
+            "MASE[0.5]": 1.857343967013889,
+            "NRMSE[mean]": 0.5428506776664083,
+            "ND[0.5]": 0.42344354838709686,
+            "mean_weighted_sum_quantile_loss": 0.3499888888888889,
+            "average_mean_scaled_quantile_loss": 1.535150916280864,
+            "MAE_coverage": 0.16944444444444443
+        },
+        {
+            "sMAPE[0.5]": 0.674626043588621,
+            "MASE[0.5]": 2.9001509917091823,
+            "NRMSE[mean]": 0.911154063588212,
+            "ND[0.5]": 0.8028312230215822,
+            "mean_weighted_sum_quantile_loss": 0.5955218481215024,
+            "average_mean_scaled_quantile_loss": 2.1512657067743755,
+            "MAE_coverage": 0.2777777777777777
+        },
+        {
+            "sMAPE[0.5]": 0.5532281026194878,
+            "MASE[0.5]": 2.4998652712527956,
+            "NRMSE[mean]": 0.7165228631075741,
+            "ND[0.5]": 0.5031529357798163,
+            "mean_weighted_sum_quantile_loss": 0.4139169051987768,
+            "average_mean_scaled_quantile_loss": 2.0565049369873223,
+            "MAE_coverage": 0.07870370370370369
+        },
+        {
+            "sMAPE[0.5]": 0.22896901396872157,
+            "MASE[0.5]": 2.42806573062559,
+            "NRMSE[mean]": 0.2774108863382299,
+            "ND[0.5]": 0.21891914236706744,
+            "mean_weighted_sum_quantile_loss": 0.19086914122355683,
+            "average_mean_scaled_quantile_loss": 2.116958872704643,
+            "MAE_coverage": 0.29629629629629634
+        },
+        {
+            "sMAPE[0.5]": 0.22235811081311904,
+            "MASE[0.5]": 1.9665347266881028,
+            "NRMSE[mean]": 0.34202365811702456,
+            "ND[0.5]": 0.23450625000000003,
+            "mean_weighted_sum_quantile_loss": 0.1987761574074074,
+            "average_mean_scaled_quantile_loss": 1.666907455043468,
+            "MAE_coverage": 0.09814814814814815
+        },
+        {
+            "sMAPE[0.5]": 0.19846850858188372,
+            "MASE[0.5]": 1.9180880101593978,
+            "NRMSE[mean]": 0.2283516334913475,
+            "ND[0.5]": 0.1942324539212143,
+            "mean_weighted_sum_quantile_loss": 0.1465147087499498,
+            "average_mean_scaled_quantile_loss": 1.4468648286720773,
+            "MAE_coverage": 0.08333333333333331
+        },
+        {
+            "sMAPE[0.5]": 0.4329685464670601,
+            "MASE[0.5]": 2.811558766364559,
+            "NRMSE[mean]": 0.5710420513682402,
+            "ND[0.5]": 0.40539846153846254,
+            "mean_weighted_sum_quantile_loss": 0.36004560815253206,
+            "average_mean_scaled_quantile_loss": 2.497023254727543,
+            "MAE_coverage": 0.2962962962962963
+        },
+        {
+            "sMAPE[0.5]": 0.4125127896807723,
+            "MASE[0.5]": 1.03194726331361,
+            "NRMSE[mean]": 0.5560594243306238,
+            "ND[0.5]": 0.4556971257485032,
+            "mean_weighted_sum_quantile_loss": 0.3492241729873588,
+            "average_mean_scaled_quantile_loss": 0.7908343266491347,
+            "MAE_coverage": 0.3009259259259259
+        },
+        {
+            "sMAPE[0.5]": 0.43618607177481783,
+            "MASE[0.5]": 2.1390291794217684,
+            "NRMSE[mean]": 0.5434442284076483,
+            "ND[0.5]": 0.5040268070477008,
+            "mean_weighted_sum_quantile_loss": 0.37700093071670726,
+            "average_mean_scaled_quantile_loss": 1.5999466302114411,
+            "MAE_coverage": 0.3703703703703704
+        },
+        {
+            "sMAPE[0.5]": 0.12918002533358672,
+            "MASE[0.5]": 1.270679762105856,
+            "NRMSE[mean]": 0.16288856899737206,
+            "ND[0.5]": 0.13103770482105886,
+            "mean_weighted_sum_quantile_loss": 0.09864615610108778,
+            "average_mean_scaled_quantile_loss": 0.9565771495949073,
+            "MAE_coverage": 0.030555555555555558
+        },
+        {
+            "sMAPE[0.5]": 0.17248484968739217,
+            "MASE[0.5]": 1.822917676931387,
+            "NRMSE[mean]": 0.34643382984287563,
+            "ND[0.5]": 0.19346485981308398,
+            "mean_weighted_sum_quantile_loss": 0.1652100488058152,
+            "average_mean_scaled_quantile_loss": 1.5566874452848307,
+            "MAE_coverage": 0.028703703703703693
+        },
+        {
+            "sMAPE[0.5]": 0.11147098759316827,
+            "MASE[0.5]": 1.1910302147315859,
+            "NRMSE[mean]": 0.1399591043265825,
+            "ND[0.5]": 0.11215049580838325,
+            "mean_weighted_sum_quantile_loss": 0.0885637231137725,
+            "average_mean_scaled_quantile_loss": 0.9405403818976283,
+            "MAE_coverage": 0.045370370370370366
+        },
+        {
+            "sMAPE[0.5]": 0.261273199279143,
+            "MASE[0.5]": 3.3884455834180525,
+            "NRMSE[mean]": 0.2943912134419971,
+            "ND[0.5]": 0.24731899882412245,
+            "mean_weighted_sum_quantile_loss": 0.21311010321593232,
+            "average_mean_scaled_quantile_loss": 2.9197594663453716,
+            "MAE_coverage": 0.37037037037037046
+        },
+        {
+            "sMAPE[0.5]": 0.2102421985424728,
+            "MASE[0.5]": 2.3208710899287492,
+            "NRMSE[mean]": 0.3208189420079898,
+            "ND[0.5]": 0.22279590207156302,
+            "mean_weighted_sum_quantile_loss": 0.17967845055450923,
+            "average_mean_scaled_quantile_loss": 1.8717154018443622,
+            "MAE_coverage": 0.09351851851851851
+        },
+        {
+            "sMAPE[0.5]": 0.4799130237132904,
+            "MASE[0.5]": 2.6448842900302174,
+            "NRMSE[mean]": 0.5260031541333785,
+            "ND[0.5]": 0.426826490066226,
+            "mean_weighted_sum_quantile_loss": 0.33997237380426854,
+            "average_mean_scaled_quantile_loss": 2.106681781582191,
+            "MAE_coverage": 0.27314814814814814
+        },
+        {
+            "sMAPE[0.5]": 0.15669822355547425,
+            "MASE[0.5]": 1.8417513313207714,
+            "NRMSE[mean]": 0.18594829383360256,
+            "ND[0.5]": 0.15972772955139455,
+            "mean_weighted_sum_quantile_loss": 0.12549863551232787,
+            "average_mean_scaled_quantile_loss": 1.44707045973128,
+            "MAE_coverage": 0.2268518518518519
+        },
+        {
+            "sMAPE[0.5]": 0.16715872829837355,
+            "MASE[0.5]": 2.042875938967135,
+            "NRMSE[mean]": 0.22206338164124642,
+            "ND[0.5]": 0.16723727486295997,
+            "mean_weighted_sum_quantile_loss": 0.1371537784738536,
+            "average_mean_scaled_quantile_loss": 1.6753929661450178,
+            "MAE_coverage": 0.08055555555555555
+        },
+        {
+            "sMAPE[0.5]": 0.22713849830891564,
+            "MASE[0.5]": 1.8203961662425823,
+            "NRMSE[mean]": 0.2518854679690149,
+            "ND[0.5]": 0.21574455709165438,
+            "mean_weighted_sum_quantile_loss": 0.17013083074472363,
+            "average_mean_scaled_quantile_loss": 1.4355194690533442,
+            "MAE_coverage": 0.28240740740740744
+        },
+        {
+            "sMAPE[0.5]": 0.19174811559318558,
+            "MASE[0.5]": 2.4206438549897573,
+            "NRMSE[mean]": 0.23765417244509265,
+            "ND[0.5]": 0.18908027014438752,
+            "mean_weighted_sum_quantile_loss": 0.15898253459607722,
+            "average_mean_scaled_quantile_loss": 2.035326558010601,
+            "MAE_coverage": 0.1212962962962963
+        },
+        {
+            "sMAPE[0.5]": 0.1517002974789296,
+            "MASE[0.5]": 1.2902082095709566,
+            "NRMSE[mean]": 0.20392337586568582,
+            "ND[0.5]": 0.15473306451612895,
+            "mean_weighted_sum_quantile_loss": 0.1261106551971326,
+            "average_mean_scaled_quantile_loss": 1.051546436817015,
+            "MAE_coverage": 0.06666666666666671
+        },
+        {
+            "sMAPE[0.5]": 0.2250064178026384,
+            "MASE[0.5]": 1.58699729526339,
+            "NRMSE[mean]": 0.31222545171018,
+            "ND[0.5]": 0.23212696569920838,
+            "mean_weighted_sum_quantile_loss": 0.18963375549692169,
+            "average_mean_scaled_quantile_loss": 1.2964812431754456,
+            "MAE_coverage": 0.07314814814814816
+        },
+        {
+            "sMAPE[0.5]": 0.8299170217729582,
+            "MASE[0.5]": 2.0364857777777807,
+            "NRMSE[mean]": 0.7607695236973925,
+            "ND[0.5]": 0.6502785542168684,
+            "mean_weighted_sum_quantile_loss": 0.4876761445783141,
+            "average_mean_scaled_quantile_loss": 1.5272617037037066,
+            "MAE_coverage": 0.28703703703703703
+        },
+        {
+            "sMAPE[0.5]": 0.12054178401133486,
+            "MASE[0.5]": 1.804291136982334,
+            "NRMSE[mean]": 0.15339625464355655,
+            "ND[0.5]": 0.12115759410412869,
+            "mean_weighted_sum_quantile_loss": 0.09298088223225999,
+            "average_mean_scaled_quantile_loss": 1.3846806959230298,
+            "MAE_coverage": 0.06481481481481483
+        },
+        {
+            "sMAPE[0.5]": 0.3646053447928159,
+            "MASE[0.5]": 4.769478055797733,
+            "NRMSE[mean]": 0.4759177136031329,
+            "ND[0.5]": 0.3748189111214517,
+            "mean_weighted_sum_quantile_loss": 0.2985886024507522,
+            "average_mean_scaled_quantile_loss": 3.7994662084665305,
+            "MAE_coverage": 0.06481481481481483
+        },
+        {
+            "sMAPE[0.5]": 0.4902867777810102,
+            "MASE[0.5]": 2.3792307936507955,
+            "NRMSE[mean]": 0.63134969431699,
+            "ND[0.5]": 0.4577464888888893,
+            "mean_weighted_sum_quantile_loss": 0.38525032296296335,
+            "average_mean_scaled_quantile_loss": 2.0024171761148923,
+            "MAE_coverage": 0.2592592592592593
+        },
+        {
+            "sMAPE[0.5]": 0.3828783156405726,
+            "MASE[0.5]": 2.645087018917151,
+            "NRMSE[mean]": 0.5433188975261988,
+            "ND[0.5]": 0.4252444444444437,
+            "mean_weighted_sum_quantile_loss": 0.3493968755935416,
+            "average_mean_scaled_quantile_loss": 2.173303266289769,
+            "MAE_coverage": 0.25
+        },
+        {
+            "sMAPE[0.5]": 0.22179121504712804,
+            "MASE[0.5]": 1.3997117490842494,
+            "NRMSE[mean]": 0.32185187355705147,
+            "ND[0.5]": 0.2287124390243903,
+            "mean_weighted_sum_quantile_loss": 0.19709966260162617,
+            "average_mean_scaled_quantile_loss": 1.2062427153540913,
+            "MAE_coverage": 0.11574074074074077
+        },
+        {
+            "sMAPE[0.5]": 0.2654834303144244,
+            "MASE[0.5]": 3.9612680424280584,
+            "NRMSE[mean]": 0.36696003240015845,
+            "ND[0.5]": 0.28323880048959593,
+            "mean_weighted_sum_quantile_loss": 0.22367971304229567,
+            "average_mean_scaled_quantile_loss": 3.12829773845364,
+            "MAE_coverage": 0.061111111111111116
+        },
+        {
+            "sMAPE[0.5]": 0.4544870131874747,
+            "MASE[0.5]": 1.51540544891641,
+            "NRMSE[mean]": 0.6104782683670577,
+            "ND[0.5]": 0.44487703703703735,
+            "mean_weighted_sum_quantile_loss": 0.3766375857338823,
+            "average_mean_scaled_quantile_loss": 1.2829582158009414,
+            "MAE_coverage": 0.21296296296296297
+        },
+        {
+            "sMAPE[0.5]": 0.3802968277567989,
+            "MASE[0.5]": 1.9869658478893744,
+            "NRMSE[mean]": 0.41991568102452953,
+            "ND[0.5]": 0.3453407216494846,
+            "mean_weighted_sum_quantile_loss": 0.2943620160366553,
+            "average_mean_scaled_quantile_loss": 1.693652778586447,
+            "MAE_coverage": 0.20925925925925926
+        },
+        {
+            "sMAPE[0.5]": 0.3684309671126587,
+            "MASE[0.5]": 3.312395431098008,
+            "NRMSE[mean]": 0.4381644289399238,
+            "ND[0.5]": 0.3642425976884973,
+            "mean_weighted_sum_quantile_loss": 0.2974119586620191,
+            "average_mean_scaled_quantile_loss": 2.7046425082562284,
+            "MAE_coverage": 0.1620370370370371
+        },
+        {
+            "sMAPE[0.5]": 0.6318568172973059,
+            "MASE[0.5]": 2.506457084647739,
+            "NRMSE[mean]": 0.7220100176015165,
+            "ND[0.5]": 0.5544478672985781,
+            "mean_weighted_sum_quantile_loss": 0.456663401790416,
+            "average_mean_scaled_quantile_loss": 2.0644090927678467,
+            "MAE_coverage": 0.2777777777777778
+        },
+        {
+            "sMAPE[0.5]": 0.32423721833746644,
+            "MASE[0.5]": 1.2910902203856753,
+            "NRMSE[mean]": 0.4497878384245909,
+            "ND[0.5]": 0.3262695035460994,
+            "mean_weighted_sum_quantile_loss": 0.2728529550827423,
+            "average_mean_scaled_quantile_loss": 1.0797140955004592,
+            "MAE_coverage": 0.09537037037037038
+        },
+        {
+            "sMAPE[0.5]": 0.26916132397819365,
+            "MASE[0.5]": 2.571083975240717,
+            "NRMSE[mean]": 0.30044645482477783,
+            "ND[0.5]": 0.24688620766988129,
+            "mean_weighted_sum_quantile_loss": 0.21000004066681632,
+            "average_mean_scaled_quantile_loss": 2.186949787329972,
+            "MAE_coverage": 0.36111111111111116
+        },
+        {
+            "sMAPE[0.5]": 0.26339960746332647,
+            "MASE[0.5]": 1.8952892434988173,
+            "NRMSE[mean]": 0.33034746624308475,
+            "ND[0.5]": 0.2646699551569506,
+            "mean_weighted_sum_quantile_loss": 0.21404369108121568,
+            "average_mean_scaled_quantile_loss": 1.532756920234655,
+            "MAE_coverage": 0.1398148148148148
+        },
+        {
+            "sMAPE[0.5]": 0.14387242371254033,
+            "MASE[0.5]": 1.7361923765152663,
+            "NRMSE[mean]": 0.1675080773143763,
+            "ND[0.5]": 0.14251684192815686,
+            "mean_weighted_sum_quantile_loss": 0.1092383178635859,
+            "average_mean_scaled_quantile_loss": 1.3307812054502073,
+            "MAE_coverage": 0.08333333333333333
+        },
+        {
+            "sMAPE[0.5]": 0.3289957450283095,
+            "MASE[0.5]": 1.1668793453976765,
+            "NRMSE[mean]": 0.333813148859379,
+            "ND[0.5]": 0.3110936893203884,
+            "mean_weighted_sum_quantile_loss": 0.22828423948220067,
+            "average_mean_scaled_quantile_loss": 0.8562699054215075,
+            "MAE_coverage": 0.17499999999999996
+        },
+        {
+            "sMAPE[0.5]": 0.1836542008085907,
+            "MASE[0.5]": 1.731821940104167,
+            "NRMSE[mean]": 0.2769742734236394,
+            "ND[0.5]": 0.18959204647006261,
+            "mean_weighted_sum_quantile_loss": 0.15487159567073777,
+            "average_mean_scaled_quantile_loss": 1.414669192485755,
+            "MAE_coverage": 0.11574074074074076
+        },
+        {
+            "sMAPE[0.5]": 0.2668564823069586,
+            "MASE[0.5]": 1.5457938701517724,
+            "NRMSE[mean]": 0.3601219053047378,
+            "ND[0.5]": 0.2561057305502849,
+            "mean_weighted_sum_quantile_loss": 0.22922928273244805,
+            "average_mean_scaled_quantile_loss": 1.3835739612141666,
+            "MAE_coverage": 0.3287037037037037
+        },
+        {
+            "sMAPE[0.5]": 0.13421253194337218,
+            "MASE[0.5]": 1.5814786278026904,
+            "NRMSE[mean]": 0.21620797160728797,
+            "ND[0.5]": 0.1399645067385445,
+            "mean_weighted_sum_quantile_loss": 0.11858015477687932,
+            "average_mean_scaled_quantile_loss": 1.3398538303105796,
+            "MAE_coverage": 0.05462962962962962
+        },
+        {
+            "sMAPE[0.5]": 0.7149553641599363,
+            "MASE[0.5]": 2.579459423282533,
+            "NRMSE[mean]": 1.0369253550228843,
+            "ND[0.5]": 0.9160691295938063,
+            "mean_weighted_sum_quantile_loss": 0.7023460571674156,
+            "average_mean_scaled_quantile_loss": 1.9776598698060444,
+            "MAE_coverage": 0.34722222222222215
+        },
+        {
+            "sMAPE[0.5]": 0.10716037091817787,
+            "MASE[0.5]": 2.01144799877061,
+            "NRMSE[mean]": 0.13347684315795186,
+            "ND[0.5]": 0.10790154671515338,
+            "mean_weighted_sum_quantile_loss": 0.08371593184764842,
+            "average_mean_scaled_quantile_loss": 1.5605915643146289,
+            "MAE_coverage": 0.10277777777777779
+        },
+        {
+            "sMAPE[0.5]": 0.2658186740581513,
+            "MASE[0.5]": 1.0375901409196864,
+            "NRMSE[mean]": 0.2975447227793696,
+            "ND[0.5]": 0.2560420362514462,
+            "mean_weighted_sum_quantile_loss": 0.20240785328019884,
+            "average_mean_scaled_quantile_loss": 0.820241848108121,
+            "MAE_coverage": 0.1287037037037037
+        },
+        {
+            "sMAPE[0.5]": 0.3734604797348589,
+            "MASE[0.5]": 4.227478905406218,
+            "NRMSE[mean]": 0.41132212205849183,
+            "ND[0.5]": 0.34063977536102713,
+            "mean_weighted_sum_quantile_loss": 0.2809133916390987,
+            "average_mean_scaled_quantile_loss": 3.4862500603218587,
+            "MAE_coverage": 0.3888888888888889
+        },
+        {
+            "sMAPE[0.5]": 0.2743320620696599,
+            "MASE[0.5]": 2.9060408556832695,
+            "NRMSE[mean]": 0.3177080013599571,
+            "ND[0.5]": 0.2568188936814226,
+            "mean_weighted_sum_quantile_loss": 0.2187377394711397,
+            "average_mean_scaled_quantile_loss": 2.4751325670433584,
+            "MAE_coverage": 0.3333333333333333
+        },
+        {
+            "sMAPE[0.5]": 0.47706731722929474,
+            "MASE[0.5]": 1.2402351731920322,
+            "NRMSE[mean]": 0.5743103628588292,
+            "ND[0.5]": 0.44659147882736167,
+            "mean_weighted_sum_quantile_loss": 0.37604681983351435,
+            "average_mean_scaled_quantile_loss": 1.0443246565051956,
+            "MAE_coverage": 0.2546296296296296
+        },
+        {
+            "sMAPE[0.5]": 0.30947650108059405,
+            "MASE[0.5]": 2.3363961104710707,
+            "NRMSE[mean]": 0.3602069334279818,
+            "ND[0.5]": 0.3121379147397629,
+            "mean_weighted_sum_quantile_loss": 0.22692678393452725,
+            "average_mean_scaled_quantile_loss": 1.698578834257837,
+            "MAE_coverage": 0.07870370370370369
+        },
+        {
+            "sMAPE[0.5]": 0.255861008397067,
+            "MASE[0.5]": 3.0690820095353324,
+            "NRMSE[mean]": 0.30586340725672917,
+            "ND[0.5]": 0.248260613281637,
+            "mean_weighted_sum_quantile_loss": 0.21325157293862945,
+            "average_mean_scaled_quantile_loss": 2.636288363908063,
+            "MAE_coverage": 0.28240740740740744
+        },
+        {
+            "sMAPE[0.5]": 0.16958922850403488,
+            "MASE[0.5]": 2.444604600473397,
+            "NRMSE[mean]": 0.21556436586096644,
+            "ND[0.5]": 0.16063725396602582,
+            "mean_weighted_sum_quantile_loss": 0.12727178729311947,
+            "average_mean_scaled_quantile_loss": 1.9368433476398574,
+            "MAE_coverage": 0.07870370370370369
+        },
+        {
+            "sMAPE[0.5]": 0.17171042070532463,
+            "MASE[0.5]": 3.6356052971742527,
+            "NRMSE[mean]": 0.24874083576452244,
+            "ND[0.5]": 0.18448554687670485,
+            "mean_weighted_sum_quantile_loss": 0.13433590658702654,
+            "average_mean_scaled_quantile_loss": 2.6473203015459035,
+            "MAE_coverage": 0.3657407407407407
+        },
+        {
+            "sMAPE[0.5]": 0.12142294948355205,
+            "MASE[0.5]": 2.5602841317240923,
+            "NRMSE[mean]": 0.14662957261151982,
+            "ND[0.5]": 0.11821425940691802,
+            "mean_weighted_sum_quantile_loss": 0.0905010883407233,
+            "average_mean_scaled_quantile_loss": 1.960072342752877,
+            "MAE_coverage": 0.06388888888888888
+        },
+        {
+            "sMAPE[0.5]": 0.1792463919096984,
+            "MASE[0.5]": 2.196160324772225,
+            "NRMSE[mean]": 0.21858257780103665,
+            "ND[0.5]": 0.18268276916096834,
+            "mean_weighted_sum_quantile_loss": 0.15235351920867946,
+            "average_mean_scaled_quantile_loss": 1.8315507026867062,
+            "MAE_coverage": 0.1675925925925926
+        },
+        {
+            "sMAPE[0.5]": 0.1488951884330277,
+            "MASE[0.5]": 3.451920671636966,
+            "NRMSE[mean]": 0.19678127866823514,
+            "ND[0.5]": 0.15598244580497314,
+            "mean_weighted_sum_quantile_loss": 0.11669481751954908,
+            "average_mean_scaled_quantile_loss": 2.582478116622736,
+            "MAE_coverage": 0.26851851851851855
+        },
+        {
+            "sMAPE[0.5]": 0.19673703561829256,
+            "MASE[0.5]": 1.702758682213893,
+            "NRMSE[mean]": 0.231594626327207,
+            "ND[0.5]": 0.1868144872383213,
+            "mean_weighted_sum_quantile_loss": 0.13578994828669044,
+            "average_mean_scaled_quantile_loss": 1.237685132564537,
+            "MAE_coverage": 0.19444444444444445
+        },
+        {
+            "sMAPE[0.5]": 0.2081881788782357,
+            "MASE[0.5]": 3.16872554323189,
+            "NRMSE[mean]": 0.2561751253328766,
+            "ND[0.5]": 0.1998943990940405,
+            "mean_weighted_sum_quantile_loss": 0.1507199283620902,
+            "average_mean_scaled_quantile_loss": 2.389211949106954,
+            "MAE_coverage": 0.12592592592592594
+        },
+        {
+            "sMAPE[0.5]": 0.18715787318886645,
+            "MASE[0.5]": 1.8720069186785262,
+            "NRMSE[mean]": 0.22521586910132474,
+            "ND[0.5]": 0.18668623725914135,
+            "mean_weighted_sum_quantile_loss": 0.13944662203109282,
+            "average_mean_scaled_quantile_loss": 1.3983089758576872,
+            "MAE_coverage": 0.1111111111111111
+        },
+        {
+            "sMAPE[0.5]": 0.2537350578248416,
+            "MASE[0.5]": 1.8763332901073202,
+            "NRMSE[mean]": 0.35009167471413005,
+            "ND[0.5]": 0.2568317932963261,
+            "mean_weighted_sum_quantile_loss": 0.21318559455909136,
+            "average_mean_scaled_quantile_loss": 1.5574677220005495,
+            "MAE_coverage": 0.08333333333333333
+        },
+        {
+            "sMAPE[0.5]": 0.1207953443109145,
+            "MASE[0.5]": 1.4122239419300844,
+            "NRMSE[mean]": 0.1667228015276569,
+            "ND[0.5]": 0.11226981560232352,
+            "mean_weighted_sum_quantile_loss": 0.09001025273600634,
+            "average_mean_scaled_quantile_loss": 1.132224483054511,
+            "MAE_coverage": 0.11574074074074076
+        },
+        {
+            "sMAPE[0.5]": 0.1846895521815862,
+            "MASE[0.5]": 1.472855018587359,
+            "NRMSE[mean]": 0.2711510773803789,
+            "ND[0.5]": 0.16643831775700915,
+            "mean_weighted_sum_quantile_loss": 0.1467892508653512,
+            "average_mean_scaled_quantile_loss": 1.2989754266042897,
+            "MAE_coverage": 0.26851851851851855
+        },
+        {
+            "sMAPE[0.5]": 0.3311734455246129,
+            "MASE[0.5]": 3.6523055925136076,
+            "NRMSE[mean]": 0.5161209554824501,
+            "ND[0.5]": 0.3449381198616123,
+            "mean_weighted_sum_quantile_loss": 0.27057914571630515,
+            "average_mean_scaled_quantile_loss": 2.864971049049877,
+            "MAE_coverage": 0.02407407407407408
+        },
+        {
+            "sMAPE[0.5]": 0.2591585496908062,
+            "MASE[0.5]": 1.054714493222041,
+            "NRMSE[mean]": 0.32419878858752416,
+            "ND[0.5]": 0.2557044097156844,
+            "mean_weighted_sum_quantile_loss": 0.20286817397853513,
+            "average_mean_scaled_quantile_loss": 0.8367786990711684,
+            "MAE_coverage": 0.05462962962962962
+        },
+        {
+            "sMAPE[0.5]": 0.31052141072242484,
+            "MASE[0.5]": 1.0284037401588222,
+            "NRMSE[mean]": 0.4508905210057241,
+            "ND[0.5]": 0.32184990496304117,
+            "mean_weighted_sum_quantile_loss": 0.2581855794907896,
+            "average_mean_scaled_quantile_loss": 0.8249777660611433,
+            "MAE_coverage": 0.054629629629629625
+        },
+        {
+            "sMAPE[0.5]": 0.09006180493325251,
+            "MASE[0.5]": 1.0143406318848638,
+            "NRMSE[mean]": 0.10941943794187495,
+            "ND[0.5]": 0.08418411377403218,
+            "mean_weighted_sum_quantile_loss": 0.06723285861157448,
+            "average_mean_scaled_quantile_loss": 0.8100937009391733,
+            "MAE_coverage": 0.26851851851851855
+        },
+        {
+            "sMAPE[0.5]": 0.24746701735147472,
+            "MASE[0.5]": 2.0691436574994837,
+            "NRMSE[mean]": 0.34281070088353155,
+            "ND[0.5]": 0.24836946210268923,
+            "mean_weighted_sum_quantile_loss": 0.20898570304717898,
+            "average_mean_scaled_quantile_loss": 1.7410411018620104,
+            "MAE_coverage": 0.14814814814814817
+        },
+        {
+            "sMAPE[0.5]": 0.3307703141837253,
+            "MASE[0.5]": 2.482503658323632,
+            "NRMSE[mean]": 0.5639817561919002,
+            "ND[0.5]": 0.3477716649848638,
+            "mean_weighted_sum_quantile_loss": 0.2860270615091378,
+            "average_mean_scaled_quantile_loss": 2.041751235273574,
+            "MAE_coverage": 0.057407407407407386
+        },
+        {
+            "sMAPE[0.5]": 0.46749472561796573,
+            "MASE[0.5]": 3.1698346714262975,
+            "NRMSE[mean]": 0.43844797957453807,
+            "ND[0.5]": 0.3937318048302873,
+            "mean_weighted_sum_quantile_loss": 0.3216837412967799,
+            "average_mean_scaled_quantile_loss": 2.58979402701842,
+            "MAE_coverage": 0.37499999999999994
+        },
+        {
+            "sMAPE[0.5]": 0.23856802958122816,
+            "MASE[0.5]": 2.7419086167601665,
+            "NRMSE[mean]": 0.3025119438688341,
+            "ND[0.5]": 0.2282863778288131,
+            "mean_weighted_sum_quantile_loss": 0.18869755998818716,
+            "average_mean_scaled_quantile_loss": 2.2664141006311342,
+            "MAE_coverage": 0.3472222222222222
+        },
+        {
+            "sMAPE[0.5]": 0.34938625924549677,
+            "MASE[0.5]": 1.571296907546045,
+            "NRMSE[mean]": 0.38255249483890064,
+            "ND[0.5]": 0.337775435318999,
+            "mean_weighted_sum_quantile_loss": 0.24494147926213136,
+            "average_mean_scaled_quantile_loss": 1.1394428032661983,
+            "MAE_coverage": 0.06666666666666668
+        },
+        {
+            "sMAPE[0.5]": 0.2610697605255019,
+            "MASE[0.5]": 1.5694003030459747,
+            "NRMSE[mean]": 0.30374482104672934,
+            "ND[0.5]": 0.25827516798314915,
+            "mean_weighted_sum_quantile_loss": 0.19426072660464563,
+            "average_mean_scaled_quantile_loss": 1.1804187200186165,
+            "MAE_coverage": 0.05462962962962963
+        },
+        {
+            "sMAPE[0.5]": 0.10206974618650448,
+            "MASE[0.5]": 0.9448585653367704,
+            "NRMSE[mean]": 0.11148520820002451,
+            "ND[0.5]": 0.09350080297074229,
+            "mean_weighted_sum_quantile_loss": 0.0776574977517967,
+            "average_mean_scaled_quantile_loss": 0.7847563826416153,
+            "MAE_coverage": 0.13981481481481478
+        },
+        {
+            "sMAPE[0.5]": 0.12908363010584986,
+            "MASE[0.5]": 2.022151529566918,
+            "NRMSE[mean]": 0.20441106963285174,
+            "ND[0.5]": 0.11728333727730642,
+            "mean_weighted_sum_quantile_loss": 0.10334676105157592,
+            "average_mean_scaled_quantile_loss": 1.7818627589195306,
+            "MAE_coverage": 0.08055555555555555
+        },
+        {
+            "sMAPE[0.5]": 0.18079076332926425,
+            "MASE[0.5]": 1.9129380384350814,
+            "NRMSE[mean]": 0.22595729560439842,
+            "ND[0.5]": 0.17996109071252675,
+            "mean_weighted_sum_quantile_loss": 0.14451645923286194,
+            "average_mean_scaled_quantile_loss": 1.5361711298366294,
+            "MAE_coverage": 0.08333333333333334
+        },
+        {
+            "sMAPE[0.5]": 0.29924090904144696,
+            "MASE[0.5]": 2.614996624027834,
+            "NRMSE[mean]": 0.3440895247726545,
+            "ND[0.5]": 0.2939332985867787,
+            "mean_weighted_sum_quantile_loss": 0.22834599260297425,
+            "average_mean_scaled_quantile_loss": 2.0314949093485297,
+            "MAE_coverage": 0.20370370370370372
+        },
+        {
+            "sMAPE[0.5]": 0.06963800900268809,
+            "MASE[0.5]": 0.8951501723785951,
+            "NRMSE[mean]": 0.10169767824708825,
+            "ND[0.5]": 0.06428903687932527,
+            "mean_weighted_sum_quantile_loss": 0.05651320190645221,
+            "average_mean_scaled_quantile_loss": 0.7868807013423402,
+            "MAE_coverage": 0.0398148148148148
+        },
+        {
+            "sMAPE[0.5]": 0.30916373339404535,
+            "MASE[0.5]": 2.4777119773199074,
+            "NRMSE[mean]": 0.34229709638594297,
+            "ND[0.5]": 0.30819767237555623,
+            "mean_weighted_sum_quantile_loss": 0.2370937960644538,
+            "average_mean_scaled_quantile_loss": 1.9060823325793963,
+            "MAE_coverage": 0.10648148148148147
+        },
+        {
+            "sMAPE[0.5]": 0.3072267823712603,
+            "MASE[0.5]": 3.2721819988577963,
+            "NRMSE[mean]": 0.4268385912503701,
+            "ND[0.5]": 0.30971095255083847,
+            "mean_weighted_sum_quantile_loss": 0.2622641227652912,
+            "average_mean_scaled_quantile_loss": 2.770893100133258,
+            "MAE_coverage": 0.13888888888888887
+        },
+        {
+            "sMAPE[0.5]": 0.2647395735477061,
+            "MASE[0.5]": 1.5705342241152873,
+            "NRMSE[mean]": 0.3202328778715108,
+            "ND[0.5]": 0.27719838032786925,
+            "mean_weighted_sum_quantile_loss": 0.20732786877959958,
+            "average_mean_scaled_quantile_loss": 1.1746660032649097,
+            "MAE_coverage": 0.18518518518518512
+        },
+        {
+            "sMAPE[0.5]": 0.41595428207628476,
+            "MASE[0.5]": 2.952732518887489,
+            "NRMSE[mean]": 0.5453874654833948,
+            "ND[0.5]": 0.4655778900678397,
+            "mean_weighted_sum_quantile_loss": 0.3542862211399098,
+            "average_mean_scaled_quantile_loss": 2.2469117809721286,
+            "MAE_coverage": 0.3009259259259259
+        },
+        {
+            "sMAPE[0.5]": 0.29911765403782237,
+            "MASE[0.5]": 2.932928504768738,
+            "NRMSE[mean]": 0.34304346671548674,
+            "ND[0.5]": 0.3052151207850561,
+            "mean_weighted_sum_quantile_loss": 0.2168640132023244,
+            "average_mean_scaled_quantile_loss": 2.0839290148654497,
+            "MAE_coverage": 0.18055555555555552
+        },
+        {
+            "sMAPE[0.5]": 0.3104159155450455,
+            "MASE[0.5]": 0.882832477211075,
+            "NRMSE[mean]": 0.4215656641387892,
+            "ND[0.5]": 0.31786790545018473,
+            "mean_weighted_sum_quantile_loss": 0.2540155815879628,
+            "average_mean_scaled_quantile_loss": 0.7054918137328506,
+            "MAE_coverage": 0.028703703703703714
+        },
+        {
+            "sMAPE[0.5]": 0.2557465993385999,
+            "MASE[0.5]": 1.509498431299878,
+            "NRMSE[mean]": 0.36170198025027106,
+            "ND[0.5]": 0.25985692522062315,
+            "mean_weighted_sum_quantile_loss": 0.21410591154461509,
+            "average_mean_scaled_quantile_loss": 1.2437326322330289,
+            "MAE_coverage": 0.11574074074074076
+        },
+        {
+            "sMAPE[0.5]": 0.4169730253438824,
+            "MASE[0.5]": 0.936079254820689,
+            "NRMSE[mean]": 0.6464145974256912,
+            "ND[0.5]": 0.42527023302938227,
+            "mean_weighted_sum_quantile_loss": 0.3566237732747948,
+            "average_mean_scaled_quantile_loss": 0.7849787970355023,
+            "MAE_coverage": 0.1027777777777778
+        },
+        {
+            "sMAPE[0.5]": 0.3640735068572163,
+            "MASE[0.5]": 1.8086973964000137,
+            "NRMSE[mean]": 0.48329934937474794,
+            "ND[0.5]": 0.3538811951909475,
+            "mean_weighted_sum_quantile_loss": 0.2970325007072135,
+            "average_mean_scaled_quantile_loss": 1.5181420148234686,
+            "MAE_coverage": 0.1388888888888889
+        },
+        {
+            "sMAPE[0.5]": 0.23808165439388077,
+            "MASE[0.5]": 1.0628676249442977,
+            "NRMSE[mean]": 0.338706819450926,
+            "ND[0.5]": 0.24551773655315928,
+            "mean_weighted_sum_quantile_loss": 0.2003452773890543,
+            "average_mean_scaled_quantile_loss": 0.8673121222800331,
+            "MAE_coverage": 0.03703703703703705
+        },
+        {
+            "sMAPE[0.5]": 0.462010308580578,
+            "MASE[0.5]": 1.5722276073613302,
+            "NRMSE[mean]": 0.6006338964067675,
+            "ND[0.5]": 0.48829485941223233,
+            "mean_weighted_sum_quantile_loss": 0.37000292556702874,
+            "average_mean_scaled_quantile_loss": 1.1913474065264122,
+            "MAE_coverage": 0.20462962962962963
+        },
+        {
+            "sMAPE[0.5]": 0.3416976126926874,
+            "MASE[0.5]": 1.8824151813285466,
+            "NRMSE[mean]": 0.43468007807888487,
+            "ND[0.5]": 0.3623093888975277,
+            "mean_weighted_sum_quantile_loss": 0.284470528447278,
+            "average_mean_scaled_quantile_loss": 1.4779954861759432,
+            "MAE_coverage": 0.25000000000000006
+        },
+        {
+            "sMAPE[0.5]": 0.37456426334178516,
+            "MASE[0.5]": 1.4540731449821631,
+            "NRMSE[mean]": 0.3976274364856457,
+            "ND[0.5]": 0.3408924585041983,
+            "mean_weighted_sum_quantile_loss": 0.2646858592722775,
+            "average_mean_scaled_quantile_loss": 1.1290147089587395,
+            "MAE_coverage": 0.13055555555555554
+        },
+        {
+            "sMAPE[0.5]": 0.3100531404349495,
+            "MASE[0.5]": 1.4549832534671558,
+            "NRMSE[mean]": 0.40387571811617384,
+            "ND[0.5]": 0.3186725472775735,
+            "mean_weighted_sum_quantile_loss": 0.2462643324354944,
+            "average_mean_scaled_quantile_loss": 1.1243845216067936,
+            "MAE_coverage": 0.17592592592592593
+        },
+        {
+            "sMAPE[0.5]": 0.16615088457136637,
+            "MASE[0.5]": 0.9888184426159626,
+            "NRMSE[mean]": 0.19273713091042727,
+            "ND[0.5]": 0.16781459711490646,
+            "mean_weighted_sum_quantile_loss": 0.13685072453656105,
+            "average_mean_scaled_quantile_loss": 0.8063691873863117,
+            "MAE_coverage": 0.09074074074074075
+        },
+        {
+            "sMAPE[0.5]": 0.2890602523930717,
+            "MASE[0.5]": 2.8267353258614487,
+            "NRMSE[mean]": 0.39936670289862786,
+            "ND[0.5]": 0.2944913727057518,
+            "mean_weighted_sum_quantile_loss": 0.24423071592488949,
+            "average_mean_scaled_quantile_loss": 2.344298191224512,
+            "MAE_coverage": 0.11574074074074073
+        },
+        {
+            "sMAPE[0.5]": 0.36972479880034775,
+            "MASE[0.5]": 2.007943589341694,
+            "NRMSE[mean]": 0.4374800238110173,
+            "ND[0.5]": 0.3719507169688064,
+            "mean_weighted_sum_quantile_loss": 0.28018858373709343,
+            "average_mean_scaled_quantile_loss": 1.5125736955329165,
+            "MAE_coverage": 0.1185185185185185
+        },
+        {
+            "sMAPE[0.5]": 0.383198418941404,
+            "MASE[0.5]": 3.6281360999831898,
+            "NRMSE[mean]": 0.40949418670644716,
+            "ND[0.5]": 0.37743256635891503,
+            "mean_weighted_sum_quantile_loss": 0.2758578747355259,
+            "average_mean_scaled_quantile_loss": 2.651731734353988,
+            "MAE_coverage": 0.0925925925925926
+        },
+        {
+            "sMAPE[0.5]": 0.20415540063222293,
+            "MASE[0.5]": 1.4874618569678446,
+            "NRMSE[mean]": 0.2622440808571249,
+            "ND[0.5]": 0.20806389494964384,
+            "mean_weighted_sum_quantile_loss": 0.1528964476516046,
+            "average_mean_scaled_quantile_loss": 1.093066310244193,
+            "MAE_coverage": 0.07962962962962963
+        },
+        {
+            "sMAPE[0.5]": 0.21541114783738405,
+            "MASE[0.5]": 4.392633849154579,
+            "NRMSE[mean]": 0.32895091619926803,
+            "ND[0.5]": 0.22038802460521775,
+            "mean_weighted_sum_quantile_loss": 0.18828464519279514,
+            "average_mean_scaled_quantile_loss": 3.7527697216373648,
+            "MAE_coverage": 0.052777777777777785
+        },
+        {
+            "sMAPE[0.5]": 0.23489215645249698,
+            "MASE[0.5]": 3.5997708599324056,
+            "NRMSE[mean]": 0.290235090564826,
+            "ND[0.5]": 0.2363243259733821,
+            "mean_weighted_sum_quantile_loss": 0.18098985402975323,
+            "average_mean_scaled_quantile_loss": 2.75689774971836,
+            "MAE_coverage": 0.07407407407407407
+        },
+        {
+            "sMAPE[0.5]": 0.29034061034741876,
+            "MASE[0.5]": 3.9464808185095883,
+            "NRMSE[mean]": 0.38845924697778467,
+            "ND[0.5]": 0.3061936432828979,
+            "mean_weighted_sum_quantile_loss": 0.24100113497376338,
+            "average_mean_scaled_quantile_loss": 3.1062250222296512,
+            "MAE_coverage": 0.053703703703703726
+        },
+        {
+            "sMAPE[0.5]": 0.22807585848429054,
+            "MASE[0.5]": 1.7719318505132096,
+            "NRMSE[mean]": 0.2726843926212741,
+            "ND[0.5]": 0.2254936558094312,
+            "mean_weighted_sum_quantile_loss": 0.18601488854678694,
+            "average_mean_scaled_quantile_loss": 1.4617072241015614,
+            "MAE_coverage": 0.12499999999999997
+        },
+        {
+            "sMAPE[0.5]": 0.1780937770057062,
+            "MASE[0.5]": 3.4405620211407943,
+            "NRMSE[mean]": 0.23975904973132936,
+            "ND[0.5]": 0.18330442203123867,
+            "mean_weighted_sum_quantile_loss": 0.14651690287002572,
+            "average_mean_scaled_quantile_loss": 2.7500727253807136,
+            "MAE_coverage": 0.04351851851851854
+        },
+        {
+            "sMAPE[0.5]": 0.21472187373201315,
+            "MASE[0.5]": 1.175840026546398,
+            "NRMSE[mean]": 0.3064249799205051,
+            "ND[0.5]": 0.2133144886035776,
+            "mean_weighted_sum_quantile_loss": 0.19339660330512276,
+            "average_mean_scaled_quantile_loss": 1.0660479213246692,
+            "MAE_coverage": 0.21296296296296297
+        },
+        {
+            "sMAPE[0.5]": 0.21620617750046456,
+            "MASE[0.5]": 2.2601752184461303,
+            "NRMSE[mean]": 0.2959879704926254,
+            "ND[0.5]": 0.22659007385738644,
+            "mean_weighted_sum_quantile_loss": 0.18123912231798575,
+            "average_mean_scaled_quantile_loss": 1.8078116393300472,
+            "MAE_coverage": 0.10092592592592592
+        },
+        {
+            "sMAPE[0.5]": 0.20068586845311964,
+            "MASE[0.5]": 2.3794850248681367,
+            "NRMSE[mean]": 0.2948497170301836,
+            "ND[0.5]": 0.2133597335489315,
+            "mean_weighted_sum_quantile_loss": 0.1681793359892514,
+            "average_mean_scaled_quantile_loss": 1.8756126323475841,
+            "MAE_coverage": 0.09722222222222222
+        },
+        {
+            "sMAPE[0.5]": 0.26612008528499825,
+            "MASE[0.5]": 1.9313478121493552,
+            "NRMSE[mean]": 0.3259684511566178,
+            "ND[0.5]": 0.2660338017890772,
+            "mean_weighted_sum_quantile_loss": 0.19937683369951864,
+            "average_mean_scaled_quantile_loss": 1.4474326531788908,
+            "MAE_coverage": 0.0638888888888889
+        },
+        {
+            "sMAPE[0.5]": 0.18266550290438235,
+            "MASE[0.5]": 1.2817951558238874,
+            "NRMSE[mean]": 0.2895913109220547,
+            "ND[0.5]": 0.1800211377554701,
+            "mean_weighted_sum_quantile_loss": 0.16604019206147375,
+            "average_mean_scaled_quantile_loss": 1.182247354449897,
+            "MAE_coverage": 0.26851851851851855
+        },
+        {
+            "sMAPE[0.5]": 0.3711045986275245,
+            "MASE[0.5]": 1.6601680785766189,
+            "NRMSE[mean]": 0.548961684993533,
+            "ND[0.5]": 0.3747209393919236,
+            "mean_weighted_sum_quantile_loss": 0.2706273681206989,
+            "average_mean_scaled_quantile_loss": 1.1989906901713736,
+            "MAE_coverage": 0.18518518518518517
+        },
+        {
+            "sMAPE[0.5]": 0.2891558946836618,
+            "MASE[0.5]": 2.581942426662321,
+            "NRMSE[mean]": 0.4906497532462387,
+            "ND[0.5]": 0.31651160996835453,
+            "mean_weighted_sum_quantile_loss": 0.2549629069971871,
+            "average_mean_scaled_quantile_loss": 2.0798590827900916,
+            "MAE_coverage": 0.05462962962962962
+        },
+        {
+            "sMAPE[0.5]": 0.18945937637226362,
+            "MASE[0.5]": 1.5817010035065355,
+            "NRMSE[mean]": 0.22982675792056714,
+            "ND[0.5]": 0.19414740267286473,
+            "mean_weighted_sum_quantile_loss": 0.14962615602470575,
+            "average_mean_scaled_quantile_loss": 1.2189905086388275,
+            "MAE_coverage": 0.1064814814814815
+        },
+        {
+            "sMAPE[0.5]": 0.4677281306868141,
+            "MASE[0.5]": 1.794570645886888,
+            "NRMSE[mean]": 0.6025863213515688,
+            "ND[0.5]": 0.44316451718494243,
+            "mean_weighted_sum_quantile_loss": 0.3607399221676665,
+            "average_mean_scaled_quantile_loss": 1.4607967245072822,
+            "MAE_coverage": 0.1388888888888889
+        },
+        {
+            "sMAPE[0.5]": 0.16728858662385146,
+            "MASE[0.5]": 1.2566471580048744,
+            "NRMSE[mean]": 0.29862221764299346,
+            "ND[0.5]": 0.17230205052110964,
+            "mean_weighted_sum_quantile_loss": 0.13415169131484442,
+            "average_mean_scaled_quantile_loss": 0.9784058931538522,
+            "MAE_coverage": 0.13796296296296295
+        },
+        {
+            "sMAPE[0.5]": 0.4877571317312732,
+            "MASE[0.5]": 2.347278275966184,
+            "NRMSE[mean]": 0.6875313587253566,
+            "ND[0.5]": 0.5116699728506787,
+            "mean_weighted_sum_quantile_loss": 0.41148071360482663,
+            "average_mean_scaled_quantile_loss": 1.8876615616948476,
+            "MAE_coverage": 0.21296296296296294
+        },
+        {
+            "sMAPE[0.5]": 0.3671319017110028,
+            "MASE[0.5]": 2.575757562286143,
+            "NRMSE[mean]": 0.4593772378484424,
+            "ND[0.5]": 0.37336611105783074,
+            "mean_weighted_sum_quantile_loss": 0.28458466673060334,
+            "average_mean_scaled_quantile_loss": 1.9632770241659543,
+            "MAE_coverage": 0.16203703703703703
+        },
+        {
+            "sMAPE[0.5]": 0.2993283159803281,
+            "MASE[0.5]": 1.2398818479664302,
+            "NRMSE[mean]": 0.3168420146798212,
+            "ND[0.5]": 0.28643151030452174,
+            "mean_weighted_sum_quantile_loss": 0.21449161516114698,
+            "average_mean_scaled_quantile_loss": 0.9284741748439854,
+            "MAE_coverage": 0.06111111111111109
+        },
+        {
+            "sMAPE[0.5]": 0.4390905068147332,
+            "MASE[0.5]": 2.012298958090806,
+            "NRMSE[mean]": 0.5694047527749214,
+            "ND[0.5]": 0.47457079652699213,
+            "mean_weighted_sum_quantile_loss": 0.34055947854536367,
+            "average_mean_scaled_quantile_loss": 1.4440574280170768,
+            "MAE_coverage": 0.18981481481481483
+        },
+        {
+            "sMAPE[0.5]": 0.3129847544855065,
+            "MASE[0.5]": 2.18201908686296,
+            "NRMSE[mean]": 0.434337897703986,
+            "ND[0.5]": 0.3141788455545818,
+            "mean_weighted_sum_quantile_loss": 0.2601634473117582,
+            "average_mean_scaled_quantile_loss": 1.8068740647902723,
+            "MAE_coverage": 0.21296296296296294
+        },
+        {
+            "sMAPE[0.5]": 0.5148143239192139,
+            "MASE[0.5]": 1.4371980137207236,
+            "NRMSE[mean]": 0.7967596290969874,
+            "ND[0.5]": 0.5040781299064951,
+            "mean_weighted_sum_quantile_loss": 0.42477145332822197,
+            "average_mean_scaled_quantile_loss": 1.211083466608297,
+            "MAE_coverage": 0.04259259259259261
+        },
+        {
+            "sMAPE[0.5]": 0.3622098257070481,
+            "MASE[0.5]": 2.52690357232931,
+            "NRMSE[mean]": 0.5147326278151882,
+            "ND[0.5]": 0.3819009973045822,
+            "mean_weighted_sum_quantile_loss": 0.3031287223719676,
+            "average_mean_scaled_quantile_loss": 2.005695342100523,
+            "MAE_coverage": 0.07962962962962963
+        },
+        {
+            "sMAPE[0.5]": 0.5319820374246023,
+            "MASE[0.5]": 2.3643955160591847,
+            "NRMSE[mean]": 0.666961757606534,
+            "ND[0.5]": 0.48855755152260844,
+            "mean_weighted_sum_quantile_loss": 0.38997630951160317,
+            "average_mean_scaled_quantile_loss": 1.8873073084325753,
+            "MAE_coverage": 0.1259259259259259
+        },
+        {
+            "sMAPE[0.5]": 0.4566259736327418,
+            "MASE[0.5]": 2.2299263433813885,
+            "NRMSE[mean]": 0.6894655771789886,
+            "ND[0.5]": 0.44533448499244227,
+            "mean_weighted_sum_quantile_loss": 0.3873239665059142,
+            "average_mean_scaled_quantile_loss": 1.939449886413281,
+            "MAE_coverage": 0.03796296296296297
+        },
+        {
+            "sMAPE[0.5]": 0.37395227453692526,
+            "MASE[0.5]": 1.6987664551426385,
+            "NRMSE[mean]": 0.5269765566566934,
+            "ND[0.5]": 0.3837232625884309,
+            "mean_weighted_sum_quantile_loss": 0.2958757571554076,
+            "average_mean_scaled_quantile_loss": 1.3098601522228628,
+            "MAE_coverage": 0.06574074074074072
+        },
+        {
+            "sMAPE[0.5]": 0.6233182167319808,
+            "MASE[0.5]": 1.1950998606222398,
+            "NRMSE[mean]": 0.9881834252102341,
+            "ND[0.5]": 0.6415666038920279,
+            "mean_weighted_sum_quantile_loss": 0.552436606821511,
+            "average_mean_scaled_quantile_loss": 1.029069948170372,
+            "MAE_coverage": 0.13703703703703704
+        },
+        {
+            "sMAPE[0.5]": 0.3939876912324493,
+            "MASE[0.5]": 1.894174598115299,
+            "NRMSE[mean]": 0.576565042677702,
+            "ND[0.5]": 0.40412642362959017,
+            "mean_weighted_sum_quantile_loss": 0.329284021760984,
+            "average_mean_scaled_quantile_loss": 1.5433819545454546,
+            "MAE_coverage": 0.028703703703703707
+        },
+        {
+            "sMAPE[0.5]": 0.344961161061711,
+            "MASE[0.5]": 1.4429801666666666,
+            "NRMSE[mean]": 0.5455762176282735,
+            "ND[0.5]": 0.36890153391519487,
+            "mean_weighted_sum_quantile_loss": 0.31210940166006157,
+            "average_mean_scaled_quantile_loss": 1.2208343826762245,
+            "MAE_coverage": 0.10185185185185185
+        },
+        {
+            "sMAPE[0.5]": 0.47382788590807623,
+            "MASE[0.5]": 6.225443502212381,
+            "NRMSE[mean]": 0.7774117942096237,
+            "ND[0.5]": 0.4882144841653241,
+            "mean_weighted_sum_quantile_loss": 0.41076969337388897,
+            "average_mean_scaled_quantile_loss": 5.2379099790376085,
+            "MAE_coverage": 0.05833333333333332
+        },
+        {
+            "sMAPE[0.5]": 0.17139041753151887,
+            "MASE[0.5]": 1.9998490472560988,
+            "NRMSE[mean]": 0.22247634061087077,
+            "ND[0.5]": 0.1690992147239265,
+            "mean_weighted_sum_quantile_loss": 0.13462743660077267,
+            "average_mean_scaled_quantile_loss": 1.5921691372732973,
+            "MAE_coverage": 0.06666666666666665
+        },
+        {
+            "sMAPE[0.5]": 0.36873942576338425,
+            "MASE[0.5]": 1.7820892478421702,
+            "NRMSE[mean]": 0.39504597890366494,
+            "ND[0.5]": 0.34049518626498215,
+            "mean_weighted_sum_quantile_loss": 0.2722163400640679,
+            "average_mean_scaled_quantile_loss": 1.4247303112755167,
+            "MAE_coverage": 0.13240740740740742
+        },
+        {
+            "sMAPE[0.5]": 0.35561912958638614,
+            "MASE[0.5]": 2.8035596827618883,
+            "NRMSE[mean]": 0.5458595940646207,
+            "ND[0.5]": 0.36268040546131564,
+            "mean_weighted_sum_quantile_loss": 0.30732610055318044,
+            "average_mean_scaled_quantile_loss": 2.3756647781271534,
+            "MAE_coverage": 0.11574074074074073
+        },
+        {
+            "sMAPE[0.5]": 0.23380583192570117,
+            "MASE[0.5]": 3.946974158878495,
+            "NRMSE[mean]": 0.37906477894429513,
+            "ND[0.5]": 0.24605708834025136,
+            "mean_weighted_sum_quantile_loss": 0.20477096410663023,
+            "average_mean_scaled_quantile_loss": 3.2847080702665177,
+            "MAE_coverage": 0.0787037037037037
+        },
+        {
+            "sMAPE[0.5]": 0.44872448133469733,
+            "MASE[0.5]": 2.424630655627806,
+            "NRMSE[mean]": 0.5598740034811328,
+            "ND[0.5]": 0.41663351104775453,
+            "mean_weighted_sum_quantile_loss": 0.3456918534568779,
+            "average_mean_scaled_quantile_loss": 2.0117802410672376,
+            "MAE_coverage": 0.2268518518518519
+        },
+        {
+            "sMAPE[0.5]": 0.27336134671982953,
+            "MASE[0.5]": 2.7436008891336834,
+            "NRMSE[mean]": 0.41144710267782103,
+            "ND[0.5]": 0.28078230194319864,
+            "mean_weighted_sum_quantile_loss": 0.2293416703759064,
+            "average_mean_scaled_quantile_loss": 2.2409603682429755,
+            "MAE_coverage": 0.19907407407407407
+        },
+        {
+            "sMAPE[0.5]": 0.4813108501817493,
+            "MASE[0.5]": 1.537118659868027,
+            "NRMSE[mean]": 0.5789096058032307,
+            "ND[0.5]": 0.47864251502542776,
+            "mean_weighted_sum_quantile_loss": 0.3635837328812863,
+            "average_mean_scaled_quantile_loss": 1.1676174236352734,
+            "MAE_coverage": 0.0814814814814815
+        },
+        {
+            "sMAPE[0.5]": 0.2395713518236593,
+            "MASE[0.5]": 1.6640922080725888,
+            "NRMSE[mean]": 0.358323548315091,
+            "ND[0.5]": 0.24410588662955782,
+            "mean_weighted_sum_quantile_loss": 0.21050291370366137,
+            "average_mean_scaled_quantile_loss": 1.4350176610137655,
+            "MAE_coverage": 0.1388888888888889
+        },
+        {
+            "sMAPE[0.5]": 0.17959961203761168,
+            "MASE[0.5]": 2.365510163811523,
+            "NRMSE[mean]": 0.23918662223718737,
+            "ND[0.5]": 0.18201637921187894,
+            "mean_weighted_sum_quantile_loss": 0.141997547052478,
+            "average_mean_scaled_quantile_loss": 1.8454198586047912,
+            "MAE_coverage": 0.16203703703703706
+        },
+        {
+            "sMAPE[0.5]": 0.3599637325456317,
+            "MASE[0.5]": 2.278655683525644,
+            "NRMSE[mean]": 0.5203906246798428,
+            "ND[0.5]": 0.37406849430781947,
+            "mean_weighted_sum_quantile_loss": 0.2821724856388961,
+            "average_mean_scaled_quantile_loss": 1.7188668597321861,
+            "MAE_coverage": 0.09166666666666665
+        },
+        {
+            "sMAPE[0.5]": 0.17053597369518614,
+            "MASE[0.5]": 2.799262037028172,
+            "NRMSE[mean]": 0.25828028282454923,
+            "ND[0.5]": 0.18003419198750306,
+            "mean_weighted_sum_quantile_loss": 0.14474053842522908,
+            "average_mean_scaled_quantile_loss": 2.250498585629143,
+            "MAE_coverage": 0.0925925925925926
+        },
+        {
+            "sMAPE[0.5]": 0.14610057094814358,
+            "MASE[0.5]": 1.5362927949033036,
+            "NRMSE[mean]": 0.18852414156423428,
+            "ND[0.5]": 0.14819164066153667,
+            "mean_weighted_sum_quantile_loss": 0.11337918308461953,
+            "average_mean_scaled_quantile_loss": 1.1753943831605955,
+            "MAE_coverage": 0.10648148148148145
+        },
+        {
+            "sMAPE[0.5]": 0.20343205064227318,
+            "MASE[0.5]": 1.820711969344475,
+            "NRMSE[mean]": 0.2602029488042982,
+            "ND[0.5]": 0.2070771981260389,
+            "mean_weighted_sum_quantile_loss": 0.1586463662731794,
+            "average_mean_scaled_quantile_loss": 1.3948872236081515,
+            "MAE_coverage": 0.07129629629629629
+        },
+        {
+            "sMAPE[0.5]": 0.13069757545511265,
+            "MASE[0.5]": 1.3958495522318568,
+            "NRMSE[mean]": 0.2220331259106553,
+            "ND[0.5]": 0.13221181696635648,
+            "mean_weighted_sum_quantile_loss": 0.10323284857047284,
+            "average_mean_scaled_quantile_loss": 1.0898989875419505,
+            "MAE_coverage": 0.08981481481481482
+        },
+        {
+            "sMAPE[0.5]": 0.12171132786760468,
+            "MASE[0.5]": 1.1567101585685229,
+            "NRMSE[mean]": 0.1563937867522358,
+            "ND[0.5]": 0.12066801046108262,
+            "mean_weighted_sum_quantile_loss": 0.09307837979764864,
+            "average_mean_scaled_quantile_loss": 0.8922390204631987,
+            "MAE_coverage": 0.07777777777777777
+        },
+        {
+            "sMAPE[0.5]": 0.20310178950156954,
+            "MASE[0.5]": 3.479726497388278,
+            "NRMSE[mean]": 0.270549569186046,
+            "ND[0.5]": 0.22127901550328602,
+            "mean_weighted_sum_quantile_loss": 0.15860420658642965,
+            "average_mean_scaled_quantile_loss": 2.494132844005934,
+            "MAE_coverage": 0.18148148148148147
+        },
+        {
+            "sMAPE[0.5]": 0.21067305883087095,
+            "MASE[0.5]": 3.3377247576047515,
+            "NRMSE[mean]": 0.28672908851232154,
+            "ND[0.5]": 0.2252639860932661,
+            "mean_weighted_sum_quantile_loss": 0.17878497571240237,
+            "average_mean_scaled_quantile_loss": 2.6490476798895997,
+            "MAE_coverage": 0.17685185185185187
+        },
+        {
+            "sMAPE[0.5]": 0.1948412742615767,
+            "MASE[0.5]": 2.0977793819486634,
+            "NRMSE[mean]": 0.23131178973131394,
+            "ND[0.5]": 0.19650468063612578,
+            "mean_weighted_sum_quantile_loss": 0.147389911513154,
+            "average_mean_scaled_quantile_loss": 1.5734562478543324,
+            "MAE_coverage": 0.07314814814814814
+        },
+        {
+            "sMAPE[0.5]": 0.1302263047035697,
+            "MASE[0.5]": 1.562050506771654,
+            "NRMSE[mean]": 0.14601501189969784,
+            "ND[0.5]": 0.12955580712282277,
+            "mean_weighted_sum_quantile_loss": 0.09961757458616953,
+            "average_mean_scaled_quantile_loss": 1.2010861289928008,
+            "MAE_coverage": 0.09629629629629628
+        },
+        {
+            "sMAPE[0.5]": 0.2116718682943419,
+            "MASE[0.5]": 2.8852075025230506,
+            "NRMSE[mean]": 0.3293345390748676,
+            "ND[0.5]": 0.15862764117076492,
+            "mean_weighted_sum_quantile_loss": 0.16125866274382147,
+            "average_mean_scaled_quantile_loss": 2.9330619818928274,
+            "MAE_coverage": 0.17592592592592593
+        },
+        {
+            "sMAPE[0.5]": 0.1568884648382098,
+            "MASE[0.5]": 1.8289435581709028,
+            "NRMSE[mean]": 0.1291666452163682,
+            "ND[0.5]": 0.10510854487094864,
+            "mean_weighted_sum_quantile_loss": 0.08596110787474061,
+            "average_mean_scaled_quantile_loss": 1.495768157515374,
+            "MAE_coverage": 0.18055555555555558
+        },
+        {
+            "sMAPE[0.5]": 0.23704339392995732,
+            "MASE[0.5]": 2.194336914864906,
+            "NRMSE[mean]": 0.29350521452097417,
+            "ND[0.5]": 0.24148881810013884,
+            "mean_weighted_sum_quantile_loss": 0.18791365638414692,
+            "average_mean_scaled_quantile_loss": 1.7075153883107925,
+            "MAE_coverage": 0.07407407407407407
+        },
+        {
+            "sMAPE[0.5]": 0.2668388046570888,
+            "MASE[0.5]": 2.0292697184223125,
+            "NRMSE[mean]": 0.31593167121126564,
+            "ND[0.5]": 0.2570907452223983,
+            "mean_weighted_sum_quantile_loss": 0.2037224275501404,
+            "average_mean_scaled_quantile_loss": 1.6080226957736725,
+            "MAE_coverage": 0.10462962962962961
+        },
+        {
+            "sMAPE[0.5]": 0.20076550931052384,
+            "MASE[0.5]": 3.267938765506706,
+            "NRMSE[mean]": 0.22846611247676044,
+            "ND[0.5]": 0.15549880036219318,
+            "mean_weighted_sum_quantile_loss": 0.12894572672095808,
+            "average_mean_scaled_quantile_loss": 2.709903472029008,
+            "MAE_coverage": 0.16203703703703703
+        },
+        {
+            "sMAPE[0.5]": 0.14057314006261468,
+            "MASE[0.5]": 1.2862996509172975,
+            "NRMSE[mean]": 0.17816701205773466,
+            "ND[0.5]": 0.10690076569831283,
+            "mean_weighted_sum_quantile_loss": 0.08450614643994096,
+            "average_mean_scaled_quantile_loss": 1.016833003543001,
+            "MAE_coverage": 0.048148148148148134
+        },
+        {
+            "sMAPE[0.5]": 0.4011044754611692,
+            "MASE[0.5]": 2.617373214507513,
+            "NRMSE[mean]": 0.4473207478458123,
+            "ND[0.5]": 0.34983585002568035,
+            "mean_weighted_sum_quantile_loss": 0.26355715710780114,
+            "average_mean_scaled_quantile_loss": 1.971860355235374,
+            "MAE_coverage": 0.06944444444444445
+        },
+        {
+            "sMAPE[0.5]": 0.43242925308129826,
+            "MASE[0.5]": 1.647708311734213,
+            "NRMSE[mean]": 0.48710407980572,
+            "ND[0.5]": 0.4321290339026256,
+            "mean_weighted_sum_quantile_loss": 0.31726896875973604,
+            "average_mean_scaled_quantile_loss": 1.2097468021520577,
+            "MAE_coverage": 0.12962962962962962
+        },
+        {
+            "sMAPE[0.5]": 0.3102569789636176,
+            "MASE[0.5]": 1.2926923748525196,
+            "NRMSE[mean]": 0.42109757888938976,
+            "ND[0.5]": 0.3150259844120637,
+            "mean_weighted_sum_quantile_loss": 0.2564243845024285,
+            "average_mean_scaled_quantile_loss": 1.0522238258890948,
+            "MAE_coverage": 0.02962962962962964
+        },
+        {
+            "sMAPE[0.5]": 0.09262537979293377,
+            "MASE[0.5]": 1.2965927164137445,
+            "NRMSE[mean]": 0.12459592600334203,
+            "ND[0.5]": 0.08811565707385798,
+            "mean_weighted_sum_quantile_loss": 0.06701943352489141,
+            "average_mean_scaled_quantile_loss": 0.9861687724091178,
+            "MAE_coverage": 0.12037037037037039
+        },
+        {
+            "sMAPE[0.5]": 0.34496234338194337,
+            "MASE[0.5]": 6.526188284445382,
+            "NRMSE[mean]": 0.4131089612078353,
+            "ND[0.5]": 0.3741744276711136,
+            "mean_weighted_sum_quantile_loss": 0.2669794623414279,
+            "average_mean_scaled_quantile_loss": 4.656540133340235,
+            "MAE_coverage": 0.2083333333333333
+        },
+        {
+            "sMAPE[0.5]": 0.6239020368814326,
+            "MASE[0.5]": 7.65595342242127,
+            "NRMSE[mean]": 0.7733433742512996,
+            "ND[0.5]": 0.669680663052544,
+            "mean_weighted_sum_quantile_loss": 0.5099553131776482,
+            "average_mean_scaled_quantile_loss": 5.829934087402487,
+            "MAE_coverage": 0.16018518518518518
+        },
+        {
+            "sMAPE[0.5]": 0.2688175848401811,
+            "MASE[0.5]": 5.20863349761282,
+            "NRMSE[mean]": 0.3339808495271559,
+            "ND[0.5]": 0.27291490200973695,
+            "mean_weighted_sum_quantile_loss": 0.21308585784546274,
+            "average_mean_scaled_quantile_loss": 4.066784660230253,
+            "MAE_coverage": 0.15277777777777773
+        },
+        {
+            "sMAPE[0.5]": 0.2481473853642676,
+            "MASE[0.5]": 3.8395402254386775,
+            "NRMSE[mean]": 0.34511700787111604,
+            "ND[0.5]": 0.19801092601716525,
+            "mean_weighted_sum_quantile_loss": 0.16889115318446088,
+            "average_mean_scaled_quantile_loss": 3.2748918931688085,
+            "MAE_coverage": 0.17592592592592593
+        },
+        {
+            "sMAPE[0.5]": 0.13589208743559666,
+            "MASE[0.5]": 1.9387180310406908,
+            "NRMSE[mean]": 0.10977211018377195,
+            "ND[0.5]": 0.10912329149328859,
+            "mean_weighted_sum_quantile_loss": 0.07901758291143045,
+            "average_mean_scaled_quantile_loss": 1.403850733086298,
+            "MAE_coverage": 0.19444444444444445
+        },
+        {
+            "sMAPE[0.5]": 0.2621361282834357,
+            "MASE[0.5]": 2.6051115905204,
+            "NRMSE[mean]": 0.3270579313252017,
+            "ND[0.5]": 0.26308544985751114,
+            "mean_weighted_sum_quantile_loss": 0.21252750905444723,
+            "average_mean_scaled_quantile_loss": 2.1044792763797258,
+            "MAE_coverage": 0.08148148148148149
+        },
+        {
+            "sMAPE[0.5]": 0.25627545662839196,
+            "MASE[0.5]": 2.023817151492255,
+            "NRMSE[mean]": 0.27522776702959195,
+            "ND[0.5]": 0.2437152508444889,
+            "mean_weighted_sum_quantile_loss": 0.18017777332944102,
+            "average_mean_scaled_quantile_loss": 1.496200449985308,
+            "MAE_coverage": 0.08796296296296297
+        },
+        {
+            "sMAPE[0.5]": 0.1828255376502841,
+            "MASE[0.5]": 3.7532131298521243,
+            "NRMSE[mean]": 0.2646812132825595,
+            "ND[0.5]": 0.171082854395477,
+            "mean_weighted_sum_quantile_loss": 0.1329799631882334,
+            "average_mean_scaled_quantile_loss": 2.917312465991476,
+            "MAE_coverage": 0.039814814814814824
+        },
+        {
+            "sMAPE[0.5]": 0.08332933347365153,
+            "MASE[0.5]": 0.508360123614663,
+            "NRMSE[mean]": 0.07093566558061108,
+            "ND[0.5]": 0.05191875972704415,
+            "mean_weighted_sum_quantile_loss": 0.052013257565478796,
+            "average_mean_scaled_quantile_loss": 0.5092853948091314,
+            "MAE_coverage": 0.11296296296296296
+        },
+        {
+            "sMAPE[0.5]": 0.3613228545129634,
+            "MASE[0.5]": 2.92836621535832,
+            "NRMSE[mean]": 0.46122753356909213,
+            "ND[0.5]": 0.33611837687861273,
+            "mean_weighted_sum_quantile_loss": 0.26638898851637755,
+            "average_mean_scaled_quantile_loss": 2.3208624335245998,
+            "MAE_coverage": 0.05185185185185185
+        },
+        {
+            "sMAPE[0.5]": 0.33361428818094346,
+            "MASE[0.5]": 1.672030333591931,
+            "NRMSE[mean]": 0.3759740604304549,
+            "ND[0.5]": 0.31691897435897426,
+            "mean_weighted_sum_quantile_loss": 0.25846624097049875,
+            "average_mean_scaled_quantile_loss": 1.3636400155159023,
+            "MAE_coverage": 0.09814814814814816
+        },
+        {
+            "sMAPE[0.5]": 0.4330793523589323,
+            "MASE[0.5]": 3.1035696838990945,
+            "NRMSE[mean]": 0.5507954242651859,
+            "ND[0.5]": 0.4189895733610819,
+            "mean_weighted_sum_quantile_loss": 0.3412421805989129,
+            "average_mean_scaled_quantile_loss": 2.527673607910307,
+            "MAE_coverage": 0.1111111111111111
+        },
+        {
+            "sMAPE[0.5]": 0.11605124051621912,
+            "MASE[0.5]": 1.014165233182729,
+            "NRMSE[mean]": 0.09392414886942853,
+            "ND[0.5]": 0.0802743368213023,
+            "mean_weighted_sum_quantile_loss": 0.05977392838073538,
+            "average_mean_scaled_quantile_loss": 0.7551683690572628,
+            "MAE_coverage": 0.23148148148148145
+        },
+        {
+            "sMAPE[0.5]": 0.18004959110328275,
+            "MASE[0.5]": 1.9550166962149553,
+            "NRMSE[mean]": 0.22384832046930636,
+            "ND[0.5]": 0.1424128009732898,
+            "mean_weighted_sum_quantile_loss": 0.12304704769980394,
+            "average_mean_scaled_quantile_loss": 1.689167202870989,
+            "MAE_coverage": 0.19444444444444445
+        },
+        {
+            "sMAPE[0.5]": 0.3015438212490115,
+            "MASE[0.5]": 1.9232387064935075,
+            "NRMSE[mean]": 0.3533045473355855,
+            "ND[0.5]": 0.25102022273074,
+            "mean_weighted_sum_quantile_loss": 0.1870872311212815,
+            "average_mean_scaled_quantile_loss": 1.4334040519480526,
+            "MAE_coverage": 0.13888888888888892
+        },
+        {
+            "sMAPE[0.5]": 0.08503471888976176,
+            "MASE[0.5]": 1.3140807740732086,
+            "NRMSE[mean]": 0.12622645160716878,
+            "ND[0.5]": 0.07587746098739369,
+            "mean_weighted_sum_quantile_loss": 0.06223067891704656,
+            "average_mean_scaled_quantile_loss": 1.0777395244682766,
+            "MAE_coverage": 0.16666666666666663
+        },
+        {
+            "sMAPE[0.5]": 0.2812288984902231,
+            "MASE[0.5]": 1.6680138003756542,
+            "NRMSE[mean]": 0.3096265395227695,
+            "ND[0.5]": 0.22217378740970062,
+            "mean_weighted_sum_quantile_loss": 0.18052997321649486,
+            "average_mean_scaled_quantile_loss": 1.3553646009160698,
+            "MAE_coverage": 0.20370370370370372
+        },
+        {
+            "sMAPE[0.5]": 0.5184572023341767,
+            "MASE[0.5]": 2.7875370394736847,
+            "NRMSE[mean]": 0.6751039354196304,
+            "ND[0.5]": 0.47835803556308215,
+            "mean_weighted_sum_quantile_loss": 0.3784298987298901,
+            "average_mean_scaled_quantile_loss": 2.2052255447368436,
+            "MAE_coverage": 0.08796296296296297
+        },
+        {
+            "sMAPE[0.5]": 0.5692520643222952,
+            "MASE[0.5]": 3.007054531954117,
+            "NRMSE[mean]": 0.585469601935852,
+            "ND[0.5]": 0.5927539307128581,
+            "mean_weighted_sum_quantile_loss": 0.4076016011547857,
+            "average_mean_scaled_quantile_loss": 2.067772440598115,
+            "MAE_coverage": 0.13240740740740742
+        },
+        {
+            "sMAPE[0.5]": 0.08569387820609353,
+            "MASE[0.5]": 0.889180861339384,
+            "NRMSE[mean]": 0.13506379110503555,
+            "ND[0.5]": 0.08139180270927404,
+            "mean_weighted_sum_quantile_loss": 0.08212019605572923,
+            "average_mean_scaled_quantile_loss": 0.8971383386483502,
+            "MAE_coverage": 0.09629629629629628
+        },
+        {
+            "sMAPE[0.5]": 0.185621417561277,
+            "MASE[0.5]": 2.561189096851883,
+            "NRMSE[mean]": 0.23290069043717693,
+            "ND[0.5]": 0.16274141323278263,
+            "mean_weighted_sum_quantile_loss": 0.1326755272390464,
+            "average_mean_scaled_quantile_loss": 2.0880186980904867,
+            "MAE_coverage": 0.03611111111111112
+        },
+        {
+            "sMAPE[0.5]": 0.3109232976730227,
+            "MASE[0.5]": 3.4074013095811284,
+            "NRMSE[mean]": 0.42830867424150115,
+            "ND[0.5]": 0.3188597794573165,
+            "mean_weighted_sum_quantile_loss": 0.24757839915197083,
+            "average_mean_scaled_quantile_loss": 2.6456737909377854,
+            "MAE_coverage": 0.10277777777777779
+        },
+        {
+            "sMAPE[0.5]": 0.41782130485072627,
+            "MASE[0.5]": 2.734849671185199,
+            "NRMSE[mean]": 0.4595967640933936,
+            "ND[0.5]": 0.4085431177333786,
+            "mean_weighted_sum_quantile_loss": 0.31484125341460667,
+            "average_mean_scaled_quantile_loss": 2.107595161934421,
+            "MAE_coverage": 0.1435185185185185
+        },
+        {
+            "sMAPE[0.5]": 0.27982067365797086,
+            "MASE[0.5]": 1.790378961456103,
+            "NRMSE[mean]": 0.3779474478182395,
+            "ND[0.5]": 0.28019435996682335,
+            "mean_weighted_sum_quantile_loss": 0.24059481829631674,
+            "average_mean_scaled_quantile_loss": 1.5373467937187724,
+            "MAE_coverage": 0.044444444444444446
+        },
+        {
+            "sMAPE[0.5]": 0.09598771936564589,
+            "MASE[0.5]": 1.4973244526455831,
+            "NRMSE[mean]": 0.11784725318142038,
+            "ND[0.5]": 0.0857236438474417,
+            "mean_weighted_sum_quantile_loss": 0.06925492493598959,
+            "average_mean_scaled_quantile_loss": 1.209667344021637,
+            "MAE_coverage": 0.14814814814814817
+        },
+        {
+            "sMAPE[0.5]": 0.5132195484104339,
+            "MASE[0.5]": 5.982767307692309,
+            "NRMSE[mean]": 0.6039994988241683,
+            "ND[0.5]": 0.5038083414665886,
+            "mean_weighted_sum_quantile_loss": 0.3622592260032822,
+            "average_mean_scaled_quantile_loss": 4.3018594093406595,
+            "MAE_coverage": 0.05740740740740743
+        },
+        {
+            "sMAPE[0.5]": 0.546639852344161,
+            "MASE[0.5]": 4.521527073292173,
+            "NRMSE[mean]": 0.6990805241507408,
+            "ND[0.5]": 0.5328354690676735,
+            "mean_weighted_sum_quantile_loss": 0.43194610849711146,
+            "average_mean_scaled_quantile_loss": 3.665401680541723,
+            "MAE_coverage": 0.08611111111111111
+        },
+        {
+            "sMAPE[0.5]": 0.7238252683716349,
+            "MASE[0.5]": 1.228501809140922,
+            "NRMSE[mean]": 1.2240768258099295,
+            "ND[0.5]": 0.7149704358427307,
+            "mean_weighted_sum_quantile_loss": 0.6367157167530221,
+            "average_mean_scaled_quantile_loss": 1.0940402158273372,
+            "MAE_coverage": 0.08333333333333333
+        },
+        {
+            "sMAPE[0.5]": 0.3849060745563557,
+            "MASE[0.5]": 1.281811845665215,
+            "NRMSE[mean]": 0.5359938173394404,
+            "ND[0.5]": 0.3756035831082039,
+            "mean_weighted_sum_quantile_loss": 0.3152964279507715,
+            "average_mean_scaled_quantile_loss": 1.076003303532917,
+            "MAE_coverage": 0.14351851851851852
+        },
+        {
+            "sMAPE[0.5]": 0.3231122372293709,
+            "MASE[0.5]": 2.911680985682448,
+            "NRMSE[mean]": 0.477021481210629,
+            "ND[0.5]": 0.3209094378089595,
+            "mean_weighted_sum_quantile_loss": 0.27152349178666835,
+            "average_mean_scaled_quantile_loss": 2.463591577733505,
+            "MAE_coverage": 0.053703703703703726
+        },
+        {
+            "sMAPE[0.5]": 0.09225991406819682,
+            "MASE[0.5]": 1.2433859904824125,
+            "NRMSE[mean]": 0.09723634356889416,
+            "ND[0.5]": 0.0759674005371161,
+            "mean_weighted_sum_quantile_loss": 0.06094359411210459,
+            "average_mean_scaled_quantile_loss": 0.9974859030698899,
+            "MAE_coverage": 0.2222222222222222
+        },
+        {
+            "sMAPE[0.5]": 0.11745905972591457,
+            "MASE[0.5]": 1.471825576831834,
+            "NRMSE[mean]": 0.14504135076491,
+            "ND[0.5]": 0.10560745226901215,
+            "mean_weighted_sum_quantile_loss": 0.08609761371461938,
+            "average_mean_scaled_quantile_loss": 1.199921665059873,
+            "MAE_coverage": 0.09722222222222221
+        },
+        {
+            "sMAPE[0.5]": 0.28927554067390876,
+            "MASE[0.5]": 1.9362739686240993,
+            "NRMSE[mean]": 0.3917598602032101,
+            "ND[0.5]": 0.2950181354449611,
+            "mean_weighted_sum_quantile_loss": 0.23044020788893485,
+            "average_mean_scaled_quantile_loss": 1.5124337193260895,
+            "MAE_coverage": 0.0537037037037037
+        },
+        {
+            "sMAPE[0.5]": 0.2400801055541907,
+            "MASE[0.5]": 2.311214008311677,
+            "NRMSE[mean]": 0.28985112214228353,
+            "ND[0.5]": 0.23751195760562982,
+            "mean_weighted_sum_quantile_loss": 0.18309095771642747,
+            "average_mean_scaled_quantile_loss": 1.7816466612263637,
+            "MAE_coverage": 0.058333333333333334
+        },
+        {
+            "sMAPE[0.5]": 0.06433055669783089,
+            "MASE[0.5]": 1.1119411110809623,
+            "NRMSE[mean]": 0.07602924872435318,
+            "ND[0.5]": 0.05540147904373732,
+            "mean_weighted_sum_quantile_loss": 0.0459951178106264,
+            "average_mean_scaled_quantile_loss": 0.9231497657719855,
+            "MAE_coverage": 0.16944444444444443
+        },
+        {
+            "sMAPE[0.5]": 0.16851089160429322,
+            "MASE[0.5]": 2.5776063295366374,
+            "NRMSE[mean]": 0.1740481852798867,
+            "ND[0.5]": 0.1253955393406049,
+            "mean_weighted_sum_quantile_loss": 0.09315294115375207,
+            "average_mean_scaled_quantile_loss": 1.9148337492346004,
+            "MAE_coverage": 0.1111111111111111
+        },
+        {
+            "sMAPE[0.5]": 0.12663939589214881,
+            "MASE[0.5]": 1.7978485655946814,
+            "NRMSE[mean]": 0.1113160841805766,
+            "ND[0.5]": 0.09756695322282245,
+            "mean_weighted_sum_quantile_loss": 0.06938120932927176,
+            "average_mean_scaled_quantile_loss": 1.2784749707924428,
+            "MAE_coverage": 0.14351851851851852
+        },
+        {
+            "sMAPE[0.5]": 0.2185706694368124,
+            "MASE[0.5]": 2.276843265194843,
+            "NRMSE[mean]": 0.2935099110538426,
+            "ND[0.5]": 0.2224364720589097,
+            "mean_weighted_sum_quantile_loss": 0.18359915155618925,
+            "average_mean_scaled_quantile_loss": 1.879307326927426,
+            "MAE_coverage": 0.09722222222222222
+        },
+        {
+            "sMAPE[0.5]": 0.19279981563595613,
+            "MASE[0.5]": 2.090194656227926,
+            "NRMSE[mean]": 0.22243844998673223,
+            "ND[0.5]": 0.19251364196150353,
+            "mean_weighted_sum_quantile_loss": 0.1435090336575337,
+            "average_mean_scaled_quantile_loss": 1.5581327755016614,
+            "MAE_coverage": 0.04166666666666667
+        },
+        {
+            "sMAPE[0.5]": 0.12858060008863506,
+            "MASE[0.5]": 2.4484406188483585,
+            "NRMSE[mean]": 0.11802540225140008,
+            "ND[0.5]": 0.10181926703214343,
+            "mean_weighted_sum_quantile_loss": 0.08089957484881903,
+            "average_mean_scaled_quantile_loss": 1.945386279837196,
+            "MAE_coverage": 0.07870370370370369
+        },
+        {
+            "sMAPE[0.5]": 0.27888130571988584,
+            "MASE[0.5]": 1.1385298977106677,
+            "NRMSE[mean]": 0.38858027478727314,
+            "ND[0.5]": 0.27817519882179687,
+            "mean_weighted_sum_quantile_loss": 0.22019424452752295,
+            "average_mean_scaled_quantile_loss": 0.9012224373712018,
+            "MAE_coverage": 0.10648148148148148
+        },
+        {
+            "sMAPE[0.5]": 0.22112422727683767,
+            "MASE[0.5]": 3.4216646629718377,
+            "NRMSE[mean]": 0.3742318349053641,
+            "ND[0.5]": 0.23271579425113453,
+            "mean_weighted_sum_quantile_loss": 0.1823972280308547,
+            "average_mean_scaled_quantile_loss": 2.6818211964749334,
+            "MAE_coverage": 0.061111111111111116
+        },
+        {
+            "sMAPE[0.5]": 0.3772433463562253,
+            "MASE[0.5]": 1.630299546182595,
+            "NRMSE[mean]": 0.41500562127178986,
+            "ND[0.5]": 0.35956517304189434,
+            "mean_weighted_sum_quantile_loss": 0.2781031499696418,
+            "average_mean_scaled_quantile_loss": 1.260943698611853,
+            "MAE_coverage": 0.0425925925925926
+        },
+        {
+            "sMAPE[0.5]": 0.4764212951989352,
+            "MASE[0.5]": 2.204613145728644,
+            "NRMSE[mean]": 0.8863408423023668,
+            "ND[0.5]": 0.508879821371611,
+            "mean_weighted_sum_quantile_loss": 0.42558440092149574,
+            "average_mean_scaled_quantile_loss": 1.8437535258514801,
+            "MAE_coverage": 0.11851851851851852
+        },
+        {
+            "sMAPE[0.5]": 0.22816096776183714,
+            "MASE[0.5]": 2.8082536009345103,
+            "NRMSE[mean]": 0.37003473758428596,
+            "ND[0.5]": 0.24533597018414136,
+            "mean_weighted_sum_quantile_loss": 0.19018649152302697,
+            "average_mean_scaled_quantile_loss": 2.1769816275524896,
+            "MAE_coverage": 0.19907407407407407
+        },
+        {
+            "sMAPE[0.5]": 0.16794536609902325,
+            "MASE[0.5]": 2.186357670344293,
+            "NRMSE[mean]": 0.2906934452113584,
+            "ND[0.5]": 0.1987584107777709,
+            "mean_weighted_sum_quantile_loss": 0.13468381518673297,
+            "average_mean_scaled_quantile_loss": 1.4815322342961694,
+            "MAE_coverage": 0.11574074074074073
+        },
+        {
+            "sMAPE[0.5]": 0.11305807338763692,
+            "MASE[0.5]": 1.870091427904665,
+            "NRMSE[mean]": 0.23605805195684393,
+            "ND[0.5]": 0.12796434845799806,
+            "mean_weighted_sum_quantile_loss": 0.09574442260101168,
+            "average_mean_scaled_quantile_loss": 1.3992242849937513,
+            "MAE_coverage": 0.08425925925925926
+        },
+        {
+            "sMAPE[0.5]": 0.2675669327909829,
+            "MASE[0.5]": 1.751605764176898,
+            "NRMSE[mean]": 0.3352488292560862,
+            "ND[0.5]": 0.26405841887544046,
+            "mean_weighted_sum_quantile_loss": 0.21712034318982687,
+            "average_mean_scaled_quantile_loss": 1.4402466176651747,
+            "MAE_coverage": 0.1944444444444445
+        },
+        {
+            "sMAPE[0.5]": 0.10846822923453069,
+            "MASE[0.5]": 1.147460808119494,
+            "NRMSE[mean]": 0.14284663593887284,
+            "ND[0.5]": 0.10798993710691819,
+            "mean_weighted_sum_quantile_loss": 0.08825968013242733,
+            "average_mean_scaled_quantile_loss": 0.9378144538490996,
+            "MAE_coverage": 0.1527777777777778
+        },
+        {
+            "sMAPE[0.5]": 0.1684301940024359,
+            "MASE[0.5]": 3.504318521037962,
+            "NRMSE[mean]": 0.33486967808052626,
+            "ND[0.5]": 0.1915696010695348,
+            "mean_weighted_sum_quantile_loss": 0.16783764079352648,
+            "average_mean_scaled_quantile_loss": 3.0701977238371234,
+            "MAE_coverage": 0.0898148148148148
+        },
+        {
+            "sMAPE[0.5]": 0.3532917666319276,
+            "MASE[0.5]": 1.882691700574896,
+            "NRMSE[mean]": 0.40151696853393953,
+            "ND[0.5]": 0.35109332514372754,
+            "mean_weighted_sum_quantile_loss": 0.27151590690056165,
+            "average_mean_scaled_quantile_loss": 1.4559682793356745,
+            "MAE_coverage": 0.08796296296296298
+        },
+        {
+            "sMAPE[0.5]": 0.1759928308808123,
+            "MASE[0.5]": 1.958016121885547,
+            "NRMSE[mean]": 0.33377578504069627,
+            "ND[0.5]": 0.19567601745105084,
+            "mean_weighted_sum_quantile_loss": 0.15974195578224137,
+            "average_mean_scaled_quantile_loss": 1.5984448622652454,
+            "MAE_coverage": 0.10648148148148148
+        },
+        {
+            "sMAPE[0.5]": 0.19335835642912333,
+            "MASE[0.5]": 1.1304938200368266,
+            "NRMSE[mean]": 0.26436908126860786,
+            "ND[0.5]": 0.19641234871131935,
+            "mean_weighted_sum_quantile_loss": 0.15764534123329113,
+            "average_mean_scaled_quantile_loss": 0.907361910751193,
+            "MAE_coverage": 0.125
+        },
+        {
+            "sMAPE[0.5]": 0.5339252971222795,
+            "MASE[0.5]": 1.1628140829866789,
+            "NRMSE[mean]": 0.41595947963280855,
+            "ND[0.5]": 0.4347715162424866,
+            "mean_weighted_sum_quantile_loss": 0.3331418153307413,
+            "average_mean_scaled_quantile_loss": 0.8910013191440935,
+            "MAE_coverage": 0.4027777777777778
+        },
+        {
+            "sMAPE[0.5]": 0.2868560532069278,
+            "MASE[0.5]": 1.6990967969067843,
+            "NRMSE[mean]": 0.2953553360924944,
+            "ND[0.5]": 0.2646773078775367,
+            "mean_weighted_sum_quantile_loss": 0.21615839445017757,
+            "average_mean_scaled_quantile_loss": 1.3876294820285218,
+            "MAE_coverage": 0.27314814814814814
+        },
+        {
+            "sMAPE[0.5]": 0.19249354567512875,
+            "MASE[0.5]": 2.0232554639613114,
+            "NRMSE[mean]": 0.3156294624280566,
+            "ND[0.5]": 0.19811307062228872,
+            "mean_weighted_sum_quantile_loss": 0.1703501384761115,
+            "average_mean_scaled_quantile_loss": 1.7397229136661636,
+            "MAE_coverage": 0.17129629629629628
+        },
+        {
+            "sMAPE[0.5]": 0.1751883104178055,
+            "MASE[0.5]": 3.5680911061298564,
+            "NRMSE[mean]": 0.398620220064776,
+            "ND[0.5]": 0.21494768425975416,
+            "mean_weighted_sum_quantile_loss": 0.18733004338143594,
+            "average_mean_scaled_quantile_loss": 3.1096434651162794,
+            "MAE_coverage": 0.033333333333333354
+        },
+        {
+            "sMAPE[0.5]": 0.15375935553290973,
+            "MASE[0.5]": 1.3750435721839258,
+            "NRMSE[mean]": 0.1786780384137252,
+            "ND[0.5]": 0.15103166453719474,
+            "mean_weighted_sum_quantile_loss": 0.11706844554861512,
+            "average_mean_scaled_quantile_loss": 1.065830890829809,
+            "MAE_coverage": 0.08796296296296295
+        },
+        {
+            "sMAPE[0.5]": 0.14059043177872074,
+            "MASE[0.5]": 0.7290015036049672,
+            "NRMSE[mean]": 0.14089625870080694,
+            "ND[0.5]": 0.13963615885563702,
+            "mean_weighted_sum_quantile_loss": 0.12769310256463876,
+            "average_mean_scaled_quantile_loss": 0.6666501322615477,
+            "MAE_coverage": 0.12870370370370368
+        },
+        {
+            "sMAPE[0.5]": 0.08331563369432551,
+            "MASE[0.5]": 1.1583565371381668,
+            "NRMSE[mean]": 0.12210250134034123,
+            "ND[0.5]": 0.0819720124689704,
+            "mean_weighted_sum_quantile_loss": 0.06740719157309426,
+            "average_mean_scaled_quantile_loss": 0.952539271112508,
+            "MAE_coverage": 0.19444444444444445
+        },
+        {
+            "sMAPE[0.5]": 0.12687031190692596,
+            "MASE[0.5]": 2.3002321669461003,
+            "NRMSE[mean]": 0.14891708142692237,
+            "ND[0.5]": 0.1195958778906813,
+            "mean_weighted_sum_quantile_loss": 0.09109254962940776,
+            "average_mean_scaled_quantile_loss": 1.752017013648464,
+            "MAE_coverage": 0.09814814814814815
+        },
+        {
+            "sMAPE[0.5]": 0.03811738665109576,
+            "MASE[0.5]": 0.8563456424103709,
+            "NRMSE[mean]": 0.06308801198217703,
+            "ND[0.5]": 0.03692667507944613,
+            "mean_weighted_sum_quantile_loss": 0.03165677768398239,
+            "average_mean_scaled_quantile_loss": 0.7341344316570081,
+            "MAE_coverage": 0.11574074074074073
+        },
+        {
+            "sMAPE[0.5]": 0.06710089434635823,
+            "MASE[0.5]": 1.5216714448683284,
+            "NRMSE[mean]": 0.09284710189617264,
+            "ND[0.5]": 0.06788088486067403,
+            "mean_weighted_sum_quantile_loss": 0.053947337866727355,
+            "average_mean_scaled_quantile_loss": 1.209326067669174,
+            "MAE_coverage": 0.162037037037037
+        },
+        {
+            "sMAPE[0.5]": 0.09103988227294574,
+            "MASE[0.5]": 1.1744260952846488,
+            "NRMSE[mean]": 0.1283873251181326,
+            "ND[0.5]": 0.09171016604904816,
+            "mean_weighted_sum_quantile_loss": 0.07710739650347107,
+            "average_mean_scaled_quantile_loss": 0.9874253040246957,
+            "MAE_coverage": 0.0925925925925926
+        },
+        {
+            "sMAPE[0.5]": 0.05383310935956526,
+            "MASE[0.5]": 1.3409197564087805,
+            "NRMSE[mean]": 0.08222123415312017,
+            "ND[0.5]": 0.05427632815376657,
+            "mean_weighted_sum_quantile_loss": 0.0458441917960203,
+            "average_mean_scaled_quantile_loss": 1.1326002437327911,
+            "MAE_coverage": 0.036111111111111135
+        },
+        {
+            "sMAPE[0.5]": 0.33863315163981184,
+            "MASE[0.5]": 2.761528414018743,
+            "NRMSE[mean]": 0.3771619046882955,
+            "ND[0.5]": 0.2560490164907272,
+            "mean_weighted_sum_quantile_loss": 0.20578375652832273,
+            "average_mean_scaled_quantile_loss": 2.2194097778034556,
+            "MAE_coverage": 0.38888888888888895
+        },
+        {
+            "sMAPE[0.5]": 0.2784929797420914,
+            "MASE[0.5]": 1.2600099213167628,
+            "NRMSE[mean]": 0.292837730310941,
+            "ND[0.5]": 0.17339576717226873,
+            "mean_weighted_sum_quantile_loss": 0.1561420782242411,
+            "average_mean_scaled_quantile_loss": 1.1346330473113566,
+            "MAE_coverage": 0.2592592592592593
+        },
+        {
+            "sMAPE[0.5]": 0.1957782618662268,
+            "MASE[0.5]": 1.0465412189773884,
+            "NRMSE[mean]": 0.1303878083968439,
+            "ND[0.5]": 0.10116281593875523,
+            "mean_weighted_sum_quantile_loss": 0.08239396500445882,
+            "average_mean_scaled_quantile_loss": 0.8523752504512144,
+            "MAE_coverage": 0.4027777777777778
+        },
+        {
+            "sMAPE[0.5]": 0.45002396857321364,
+            "MASE[0.5]": 2.182730853503806,
+            "NRMSE[mean]": 0.46603755990622897,
+            "ND[0.5]": 0.3921146721311475,
+            "mean_weighted_sum_quantile_loss": 0.29311140073894676,
+            "average_mean_scaled_quantile_loss": 1.6316229495555172,
+            "MAE_coverage": 0.12962962962962965
+        },
+        {
+            "sMAPE[0.5]": 0.22254776256063283,
+            "MASE[0.5]": 1.6731221845479534,
+            "NRMSE[mean]": 0.41729770859212134,
+            "ND[0.5]": 0.20156316280685235,
+            "mean_weighted_sum_quantile_loss": 0.17941685243838912,
+            "average_mean_scaled_quantile_loss": 1.4892915546482497,
+            "MAE_coverage": 0.13425925925925927
+        },
+        {
+            "sMAPE[0.5]": 0.9241590884784916,
+            "MASE[0.5]": 5.769830628248951,
+            "NRMSE[mean]": 0.8514723142952141,
+            "ND[0.5]": 0.5553102256859075,
+            "mean_weighted_sum_quantile_loss": 0.485293769459908,
+            "average_mean_scaled_quantile_loss": 5.042339804331145,
+            "MAE_coverage": 0.21296296296296297
+        },
+        {
+            "sMAPE[0.5]": 0.2563452147442244,
+            "MASE[0.5]": 1.791626314810718,
+            "NRMSE[mean]": 0.23377323059533348,
+            "ND[0.5]": 0.16995972001238918,
+            "mean_weighted_sum_quantile_loss": 0.14265826724796649,
+            "average_mean_scaled_quantile_loss": 1.503828704872693,
+            "MAE_coverage": 0.27314814814814814
+        },
+        {
+            "sMAPE[0.5]": 0.2807911035915455,
+            "MASE[0.5]": 1.3921200460240353,
+            "NRMSE[mean]": 0.21150059083620804,
+            "ND[0.5]": 0.12682718099360746,
+            "mean_weighted_sum_quantile_loss": 0.09940172708773193,
+            "average_mean_scaled_quantile_loss": 1.09108422819251,
+            "MAE_coverage": 0.16666666666666666
+        },
+        {
+            "sMAPE[0.5]": 0.4651094051451444,
+            "MASE[0.5]": 1.3460989566109696,
+            "NRMSE[mean]": 0.36530220196580654,
+            "ND[0.5]": 0.23560091117194953,
+            "mean_weighted_sum_quantile_loss": 0.1927684724022929,
+            "average_mean_scaled_quantile_loss": 1.1013770629216098,
+            "MAE_coverage": 0.1925925925925926
+        },
+        {
+            "sMAPE[0.5]": 0.21181613707550162,
+            "MASE[0.5]": 0.9661836408596809,
+            "NRMSE[mean]": 0.2718808807134872,
+            "ND[0.5]": 0.2145761068105256,
+            "mean_weighted_sum_quantile_loss": 0.1671653195468269,
+            "average_mean_scaled_quantile_loss": 0.7527044807828646,
+            "MAE_coverage": 0.0898148148148148
+        },
+        {
+            "sMAPE[0.5]": 0.19571153460961174,
+            "MASE[0.5]": 0.634050290514592,
+            "NRMSE[mean]": 0.25207580995211964,
+            "ND[0.5]": 0.17579226640181234,
+            "mean_weighted_sum_quantile_loss": 0.15537970928019382,
+            "average_mean_scaled_quantile_loss": 0.560425960855375,
+            "MAE_coverage": 0.07777777777777778
+        },
+        {
+            "sMAPE[0.5]": 0.5131304815752721,
+            "MASE[0.5]": 1.6265777334904932,
+            "NRMSE[mean]": 0.519025819003314,
+            "ND[0.5]": 0.4526240441668731,
+            "mean_weighted_sum_quantile_loss": 0.32689322864284487,
+            "average_mean_scaled_quantile_loss": 1.1747437057127152,
+            "MAE_coverage": 0.09722222222222221
+        }
+    ],
+    "inference_time": 93639.90323853493,
+    "metric_computation_time": 1.0851739630000026
+}
